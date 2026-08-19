@@ -26,7 +26,9 @@ export default function Guia({ teoria, unidadesIds, porId, onTema }) {
             <h3 className="bloque__titulo">{seccion.titulo}</h3>
             <div className="guia__lista">
               {temas.map((tema) => {
-                const nivel = porId?.get(tema.unidad)?.nivel
+                // Los temas de consulta pura (demostrativos, artículos…) no
+                // tienen unidad de práctica, así que declaran su nivel a mano.
+                const nivel = tema.nivel || porId?.get(tema.unidad)?.nivel
                 return (
                   <button key={tema.id} type="button" className="guia__fila" onClick={() => onTema(tema.id)}>
                     {nivel ? <span className={`nivel-insignia nivel-insignia--${nivel} nivel-insignia--mini`}>{nivel}</span> : null}

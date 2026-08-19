@@ -1,5 +1,6 @@
 {
   "secciones": [
+    { "id": "basicos", "titulo": "Lo esencial de la frase", "temas": ["demostrativos"] },
     { "id": "cimientos", "titulo": "Ortografía del verbo", "temas": ["orto-tercera", "orto-gerundio", "orto-pasado"] },
     { "id": "presente", "titulo": "Presente", "temas": ["present-simple", "present-continuous", "present-perfect", "present-perfect-continuous"] },
     { "id": "pasado", "titulo": "Pasado", "temas": ["past-simple", "past-continuous", "past-perfect", "past-perfect-continuous"] },
@@ -7,6 +8,36 @@
     { "id": "extras", "titulo": "Sonido y verbos de estado", "temas": ["pronunciacion-ed", "stative"] }
   ],
   "temas": {
+    "demostrativos": {
+      "titulo": "This · That · These · Those",
+      "resumen": "Señalar: cerca o lejos, uno o varios",
+      "nivel": "A1",
+      "metafora": "El dedo que señala. Solo hay dos preguntas que resolver: ¿está cerca o lejos?, ¿es uno o son varios? Con eso ya tienes la palabra.",
+      "usos": [
+        "Señalar algo delante de un sustantivo: this book, those cars",
+        "Sustituir al sustantivo cuando ya se sabe de qué hablas: I like these",
+        "Situarte en el tiempo: this week (esta), that day (aquel)",
+        "Presentar a alguien o identificarte al teléfono: This is Ana",
+        "Referirte a algo que se acaba de decir: That's a good idea"
+      ],
+      "reglas": [
+        { "titulo": "this — cerca, uno", "detalle": "Algo que está a tu alcance, o el momento en el que estás. Traduce este, esta y esto.", "ejemplos": ["this book", "this house", "This is my brother.", "this week"] },
+        { "titulo": "these — cerca, varios", "detalle": "El plural de this. Ojo: el sustantivo también va en plural.", "ejemplos": ["these books", "these houses", "These are my brothers.", "these days"] },
+        { "titulo": "that — lejos, uno", "detalle": "Algo apartado de ti en el espacio o en el tiempo. Traduce ese, esa, aquel y aquella.", "ejemplos": ["that car", "that girl", "That was difficult.", "that year"] },
+        { "titulo": "those — lejos, varios", "detalle": "El plural de that, con el sustantivo también en plural.", "ejemplos": ["those cars", "those girls", "Those were my keys.", "those days"] },
+        { "titulo": "Delante de un sustantivo (adjetivo)", "detalle": "Van pegados al sustantivo y no cambian de forma por género: en inglés no hay masculino ni femenino.", "ejemplos": ["this pen (este bolígrafo)", "this chair (esta silla)", "those men", "those women"] },
+        { "titulo": "Solos, sin sustantivo (pronombre)", "detalle": "Cuando ya está claro de qué hablas, el sustantivo se cae y el demostrativo se queda solo.", "ejemplos": ["I want this one.", "Whose are these?", "That's not mine.", "I'll take those."] },
+        { "titulo": "Con el verbo to be", "detalle": "El verbo concuerda con el demostrativo: singular pide is o was, plural pide are o were.", "ejemplos": ["This is my house.", "These are my keys.", "That was a good film.", "Those were the days."] }
+      ],
+      "notas": [
+        { "titulo": "El español tiene tres distancias y el inglés solo dos", "texto": "En español distingues este (aquí), ese (ahí) y aquel (allí). El inglés junta los dos últimos: ese y aquel son los dos that. No busques una tercera palabra, no existe." },
+        { "titulo": "El sustantivo también se pone en plural", "texto": "El error más repetido es «these book» o «this books». Si el demostrativo es plural, el sustantivo lo es igualmente: these books, those cars. Van siempre de la mano." },
+        { "titulo": "this y these suenan distinto, aunque se parezcan al leerlas", "texto": "this es corto y acaba en /s/ silbante: /ðɪs/. these es largo y acaba en /z/ vibrante: /ðiːz/. Si alargas la i y haces zumbar la última letra, estás diciendo el plural." },
+        { "titulo": "That's no es el plural de that", "texto": "That's es la contracción de that is, sigue siendo singular: That's my car. El plural es those: Those are my cars." },
+        { "titulo": "En el tiempo, this es el presente y that lo ya pasado", "texto": "this morning es la mañana de hoy; that morning es una mañana concreta del pasado que ya has mencionado. Por eso this suele acompañar al presente y that al past simple." }
+      ]
+    },
+
     "orto-tercera": {
       "titulo": "La -s de he/she/it",
       "resumen": "-s · -es · -ies · has",
