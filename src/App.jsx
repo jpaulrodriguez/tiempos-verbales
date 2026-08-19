@@ -9,6 +9,7 @@ import MapaUnidades from './componentes/MapaUnidades.jsx'
 import Bienvenida from './componentes/Bienvenida.jsx'
 import Guia from './componentes/Guia.jsx'
 import Tema from './componentes/Tema.jsx'
+import Verbos from './componentes/Verbos.jsx'
 import Leccion from './componentes/Leccion.jsx'
 import Resumen from './componentes/Resumen.jsx'
 import Perfil from './componentes/Perfil.jsx'
@@ -266,6 +267,15 @@ export default function App() {
           onPracticar={practicarDesdeTeoria}
         />
         <BarraTabs activa="guia" onCambiar={setPantalla} />
+      </div>
+    )
+  }
+
+  if (pantalla === 'verbos') {
+    return (
+      <div className="app app--con-tabs">
+        <Verbos />
+        <BarraTabs activa="verbos" onCambiar={setPantalla} />
       </div>
     )
   }

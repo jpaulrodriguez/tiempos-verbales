@@ -133,6 +133,13 @@ export const Libro = (p) => (
 
 export const Adelante = (p) => <Svg {...p}><path d="m9 5 7 7-7 7" /></Svg>
 
+export const Lista = (p) => (
+  <Svg {...p}>
+    <path d="M9 6.5h11M9 12h11M9 17.5h11" />
+    <path d="M4.5 6.5h.01M4.5 12h.01M4.5 17.5h.01" strokeWidth="2.5" />
+  </Svg>
+)
+
 export const Grafico = (p) => (
   <Svg {...p}>
     <path d="M4 20V4" opacity=".5" /><path d="M4 20h16" opacity=".5" />

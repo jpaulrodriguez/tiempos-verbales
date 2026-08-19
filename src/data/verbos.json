@@ -1,0 +1,3852 @@
+{
+  "nota": "Pronunciación en inglés británico (RP). Los verbos regulares repiten forma en pasado y participio.",
+  "temas": [
+    {
+      "id": "rutina",
+      "titulo": "Rutina diaria"
+    },
+    {
+      "id": "movimiento",
+      "titulo": "Movimiento"
+    },
+    {
+      "id": "comunicacion",
+      "titulo": "Comunicación"
+    },
+    {
+      "id": "trabajo",
+      "titulo": "Trabajo y estudio"
+    },
+    {
+      "id": "casa",
+      "titulo": "Casa y comida"
+    },
+    {
+      "id": "mente",
+      "titulo": "Sentidos y mente"
+    }
+  ],
+  "patrones": [
+    {
+      "id": "AAA",
+      "titulo": "Las tres iguales",
+      "ejemplo": "put · put · put"
+    },
+    {
+      "id": "ABA",
+      "titulo": "Vuelve a la primera",
+      "ejemplo": "come · came · come"
+    },
+    {
+      "id": "ABB",
+      "titulo": "Dos iguales",
+      "ejemplo": "buy · bought · bought"
+    },
+    {
+      "id": "ABC",
+      "titulo": "Las tres distintas",
+      "ejemplo": "go · went · gone"
+    }
+  ],
+  "verbos": [
+    {
+      "id": "answer",
+      "es": "responder",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "answer",
+          "ipa": "/ˈɑːnsə/"
+        },
+        "tercera": {
+          "t": "answers",
+          "ipa": "/ˈɑːnsəz/"
+        },
+        "ing": {
+          "t": "answering",
+          "ipa": "/ˈɑːnsərɪŋ/"
+        },
+        "pasado": {
+          "t": "answered",
+          "ipa": "/ˈɑːnsəd/"
+        },
+        "participio": {
+          "t": "answered",
+          "ipa": "/ˈɑːnsəd/"
+        }
+      }
+    },
+    {
+      "id": "arrive",
+      "es": "llegar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "arrive",
+          "ipa": "/əˈraɪv/"
+        },
+        "tercera": {
+          "t": "arrives",
+          "ipa": "/əˈraɪvz/"
+        },
+        "ing": {
+          "t": "arriving",
+          "ipa": "/əˈraɪvɪŋ/"
+        },
+        "pasado": {
+          "t": "arrived",
+          "ipa": "/əˈraɪvd/"
+        },
+        "participio": {
+          "t": "arrived",
+          "ipa": "/əˈraɪvd/"
+        }
+      }
+    },
+    {
+      "id": "ask",
+      "es": "preguntar, pedir",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "ask",
+          "ipa": "/ɑːsk/"
+        },
+        "tercera": {
+          "t": "asks",
+          "ipa": "/ɑːsks/"
+        },
+        "ing": {
+          "t": "asking",
+          "ipa": "/ˈɑːskɪŋ/"
+        },
+        "pasado": {
+          "t": "asked",
+          "ipa": "/ɑːskt/"
+        },
+        "participio": {
+          "t": "asked",
+          "ipa": "/ɑːskt/"
+        }
+      }
+    },
+    {
+      "id": "be",
+      "es": "ser, estar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "rutina",
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "be",
+          "ipa": "/biː/"
+        },
+        "tercera": {
+          "t": "is",
+          "ipa": "/ɪz/"
+        },
+        "ing": {
+          "t": "being",
+          "ipa": "/ˈbiːɪŋ/"
+        },
+        "pasado": {
+          "t": "was / were",
+          "ipa": "/wɒz/ /wɜː/"
+        },
+        "participio": {
+          "t": "been",
+          "ipa": "/biːn/"
+        }
+      }
+    },
+    {
+      "id": "become",
+      "es": "convertirse",
+      "tipo": "irregular",
+      "patron": "ABA",
+      "temas": [
+        "mente"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "become",
+          "ipa": "/bɪˈkʌm/"
+        },
+        "tercera": {
+          "t": "becomes",
+          "ipa": "/bɪˈkʌmz/"
+        },
+        "ing": {
+          "t": "becoming",
+          "ipa": "/bɪˈkʌmɪŋ/"
+        },
+        "pasado": {
+          "t": "became",
+          "ipa": "/bɪˈkeɪm/"
+        },
+        "participio": {
+          "t": "become",
+          "ipa": "/bɪˈkʌm/"
+        }
+      }
+    },
+    {
+      "id": "begin",
+      "es": "empezar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "begin",
+          "ipa": "/bɪˈɡɪn/"
+        },
+        "tercera": {
+          "t": "begins",
+          "ipa": "/bɪˈɡɪnz/"
+        },
+        "ing": {
+          "t": "beginning",
+          "ipa": "/bɪˈɡɪnɪŋ/"
+        },
+        "pasado": {
+          "t": "began",
+          "ipa": "/bɪˈɡæn/"
+        },
+        "participio": {
+          "t": "begun",
+          "ipa": "/bɪˈɡʌn/"
+        }
+      }
+    },
+    {
+      "id": "bite",
+      "es": "morder",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "bite",
+          "ipa": "/baɪt/"
+        },
+        "tercera": {
+          "t": "bites",
+          "ipa": "/baɪts/"
+        },
+        "ing": {
+          "t": "biting",
+          "ipa": "/ˈbaɪtɪŋ/"
+        },
+        "pasado": {
+          "t": "bit",
+          "ipa": "/bɪt/"
+        },
+        "participio": {
+          "t": "bitten",
+          "ipa": "/ˈbɪtən/"
+        }
+      }
+    },
+    {
+      "id": "blow",
+      "es": "soplar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "blow",
+          "ipa": "/bləʊ/"
+        },
+        "tercera": {
+          "t": "blows",
+          "ipa": "/bləʊz/"
+        },
+        "ing": {
+          "t": "blowing",
+          "ipa": "/ˈbləʊɪŋ/"
+        },
+        "pasado": {
+          "t": "blew",
+          "ipa": "/bluː/"
+        },
+        "participio": {
+          "t": "blown",
+          "ipa": "/bləʊn/"
+        }
+      }
+    },
+    {
+      "id": "break",
+      "es": "romper",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "break",
+          "ipa": "/breɪk/"
+        },
+        "tercera": {
+          "t": "breaks",
+          "ipa": "/breɪks/"
+        },
+        "ing": {
+          "t": "breaking",
+          "ipa": "/ˈbreɪkɪŋ/"
+        },
+        "pasado": {
+          "t": "broke",
+          "ipa": "/brəʊk/"
+        },
+        "participio": {
+          "t": "broken",
+          "ipa": "/ˈbrəʊkən/"
+        }
+      }
+    },
+    {
+      "id": "bring",
+      "es": "traer",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "bring",
+          "ipa": "/brɪŋ/"
+        },
+        "tercera": {
+          "t": "brings",
+          "ipa": "/brɪŋz/"
+        },
+        "ing": {
+          "t": "bringing",
+          "ipa": "/ˈbrɪŋɪŋ/"
+        },
+        "pasado": {
+          "t": "brought",
+          "ipa": "/brɔːt/"
+        },
+        "participio": {
+          "t": "brought",
+          "ipa": "/brɔːt/"
+        }
+      }
+    },
+    {
+      "id": "build",
+      "es": "construir",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "build",
+          "ipa": "/bɪld/"
+        },
+        "tercera": {
+          "t": "builds",
+          "ipa": "/bɪldz/"
+        },
+        "ing": {
+          "t": "building",
+          "ipa": "/ˈbɪldɪŋ/"
+        },
+        "pasado": {
+          "t": "built",
+          "ipa": "/bɪlt/"
+        },
+        "participio": {
+          "t": "built",
+          "ipa": "/bɪlt/"
+        }
+      }
+    },
+    {
+      "id": "buy",
+      "es": "comprar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo",
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "buy",
+          "ipa": "/baɪ/"
+        },
+        "tercera": {
+          "t": "buys",
+          "ipa": "/baɪz/"
+        },
+        "ing": {
+          "t": "buying",
+          "ipa": "/ˈbaɪɪŋ/"
+        },
+        "pasado": {
+          "t": "bought",
+          "ipa": "/bɔːt/"
+        },
+        "participio": {
+          "t": "bought",
+          "ipa": "/bɔːt/"
+        }
+      }
+    },
+    {
+      "id": "call",
+      "es": "llamar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "call",
+          "ipa": "/kɔːl/"
+        },
+        "tercera": {
+          "t": "calls",
+          "ipa": "/kɔːlz/"
+        },
+        "ing": {
+          "t": "calling",
+          "ipa": "/ˈkɔːlɪŋ/"
+        },
+        "pasado": {
+          "t": "called",
+          "ipa": "/kɔːld/"
+        },
+        "participio": {
+          "t": "called",
+          "ipa": "/kɔːld/"
+        }
+      }
+    },
+    {
+      "id": "catch",
+      "es": "atrapar, coger",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "catch",
+          "ipa": "/kætʃ/"
+        },
+        "tercera": {
+          "t": "catches",
+          "ipa": "/ˈkætʃɪz/"
+        },
+        "ing": {
+          "t": "catching",
+          "ipa": "/ˈkætʃɪŋ/"
+        },
+        "pasado": {
+          "t": "caught",
+          "ipa": "/kɔːt/"
+        },
+        "participio": {
+          "t": "caught",
+          "ipa": "/kɔːt/"
+        }
+      }
+    },
+    {
+      "id": "choose",
+      "es": "elegir",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "mente"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "choose",
+          "ipa": "/tʃuːz/"
+        },
+        "tercera": {
+          "t": "chooses",
+          "ipa": "/ˈtʃuːzɪz/"
+        },
+        "ing": {
+          "t": "choosing",
+          "ipa": "/ˈtʃuːzɪŋ/"
+        },
+        "pasado": {
+          "t": "chose",
+          "ipa": "/tʃəʊz/"
+        },
+        "participio": {
+          "t": "chosen",
+          "ipa": "/ˈtʃəʊzən/"
+        }
+      }
+    },
+    {
+      "id": "clean",
+      "es": "limpiar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "casa",
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "clean",
+          "ipa": "/kliːn/"
+        },
+        "tercera": {
+          "t": "cleans",
+          "ipa": "/kliːnz/"
+        },
+        "ing": {
+          "t": "cleaning",
+          "ipa": "/ˈkliːnɪŋ/"
+        },
+        "pasado": {
+          "t": "cleaned",
+          "ipa": "/kliːnd/"
+        },
+        "participio": {
+          "t": "cleaned",
+          "ipa": "/kliːnd/"
+        }
+      }
+    },
+    {
+      "id": "close",
+      "es": "cerrar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "casa"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "close",
+          "ipa": "/kləʊz/"
+        },
+        "tercera": {
+          "t": "closes",
+          "ipa": "/ˈkləʊzɪz/"
+        },
+        "ing": {
+          "t": "closing",
+          "ipa": "/ˈkləʊzɪŋ/"
+        },
+        "pasado": {
+          "t": "closed",
+          "ipa": "/kləʊzd/"
+        },
+        "participio": {
+          "t": "closed",
+          "ipa": "/kləʊzd/"
+        }
+      }
+    },
+    {
+      "id": "come",
+      "es": "venir",
+      "tipo": "irregular",
+      "patron": "ABA",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "come",
+          "ipa": "/kʌm/"
+        },
+        "tercera": {
+          "t": "comes",
+          "ipa": "/kʌmz/"
+        },
+        "ing": {
+          "t": "coming",
+          "ipa": "/ˈkʌmɪŋ/"
+        },
+        "pasado": {
+          "t": "came",
+          "ipa": "/keɪm/"
+        },
+        "participio": {
+          "t": "come",
+          "ipa": "/kʌm/"
+        }
+      }
+    },
+    {
+      "id": "cook",
+      "es": "cocinar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "casa",
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "cook",
+          "ipa": "/kʊk/"
+        },
+        "tercera": {
+          "t": "cooks",
+          "ipa": "/kʊks/"
+        },
+        "ing": {
+          "t": "cooking",
+          "ipa": "/ˈkʊkɪŋ/"
+        },
+        "pasado": {
+          "t": "cooked",
+          "ipa": "/kʊkt/"
+        },
+        "participio": {
+          "t": "cooked",
+          "ipa": "/kʊkt/"
+        }
+      }
+    },
+    {
+      "id": "cost",
+      "es": "costar",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "cost",
+          "ipa": "/kɒst/"
+        },
+        "tercera": {
+          "t": "costs",
+          "ipa": "/kɒsts/"
+        },
+        "ing": {
+          "t": "costing",
+          "ipa": "/ˈkɒstɪŋ/"
+        },
+        "pasado": {
+          "t": "cost",
+          "ipa": "/kɒst/"
+        },
+        "participio": {
+          "t": "cost",
+          "ipa": "/kɒst/"
+        }
+      }
+    },
+    {
+      "id": "cut",
+      "es": "cortar",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "cut",
+          "ipa": "/kʌt/"
+        },
+        "tercera": {
+          "t": "cuts",
+          "ipa": "/kʌts/"
+        },
+        "ing": {
+          "t": "cutting",
+          "ipa": "/ˈkʌtɪŋ/"
+        },
+        "pasado": {
+          "t": "cut",
+          "ipa": "/kʌt/"
+        },
+        "participio": {
+          "t": "cut",
+          "ipa": "/kʌt/"
+        }
+      }
+    },
+    {
+      "id": "decide",
+      "es": "decidir",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "edSonido": "/ɪd/",
+      "formas": {
+        "base": {
+          "t": "decide",
+          "ipa": "/dɪˈsaɪd/"
+        },
+        "tercera": {
+          "t": "decides",
+          "ipa": "/dɪˈsaɪdz/"
+        },
+        "ing": {
+          "t": "deciding",
+          "ipa": "/dɪˈsaɪdɪŋ/"
+        },
+        "pasado": {
+          "t": "decided",
+          "ipa": "/dɪˈsaɪdɪd/"
+        },
+        "participio": {
+          "t": "decided",
+          "ipa": "/dɪˈsaɪdɪd/"
+        }
+      }
+    },
+    {
+      "id": "do",
+      "es": "hacer",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "rutina",
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "do",
+          "ipa": "/duː/"
+        },
+        "tercera": {
+          "t": "does",
+          "ipa": "/dʌz/"
+        },
+        "ing": {
+          "t": "doing",
+          "ipa": "/ˈduːɪŋ/"
+        },
+        "pasado": {
+          "t": "did",
+          "ipa": "/dɪd/"
+        },
+        "participio": {
+          "t": "done",
+          "ipa": "/dʌn/"
+        }
+      }
+    },
+    {
+      "id": "draw",
+      "es": "dibujar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "draw",
+          "ipa": "/drɔː/"
+        },
+        "tercera": {
+          "t": "draws",
+          "ipa": "/drɔːz/"
+        },
+        "ing": {
+          "t": "drawing",
+          "ipa": "/ˈdrɔːɪŋ/"
+        },
+        "pasado": {
+          "t": "drew",
+          "ipa": "/druː/"
+        },
+        "participio": {
+          "t": "drawn",
+          "ipa": "/drɔːn/"
+        }
+      }
+    },
+    {
+      "id": "drink",
+      "es": "beber",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "rutina",
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "drink",
+          "ipa": "/drɪŋk/"
+        },
+        "tercera": {
+          "t": "drinks",
+          "ipa": "/drɪŋks/"
+        },
+        "ing": {
+          "t": "drinking",
+          "ipa": "/ˈdrɪŋkɪŋ/"
+        },
+        "pasado": {
+          "t": "drank",
+          "ipa": "/dræŋk/"
+        },
+        "participio": {
+          "t": "drunk",
+          "ipa": "/drʌŋk/"
+        }
+      }
+    },
+    {
+      "id": "drive",
+      "es": "conducir",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "drive",
+          "ipa": "/draɪv/"
+        },
+        "tercera": {
+          "t": "drives",
+          "ipa": "/draɪvz/"
+        },
+        "ing": {
+          "t": "driving",
+          "ipa": "/ˈdraɪvɪŋ/"
+        },
+        "pasado": {
+          "t": "drove",
+          "ipa": "/drəʊv/"
+        },
+        "participio": {
+          "t": "driven",
+          "ipa": "/ˈdrɪvən/"
+        }
+      }
+    },
+    {
+      "id": "eat",
+      "es": "comer",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "rutina",
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "eat",
+          "ipa": "/iːt/"
+        },
+        "tercera": {
+          "t": "eats",
+          "ipa": "/iːts/"
+        },
+        "ing": {
+          "t": "eating",
+          "ipa": "/ˈiːtɪŋ/"
+        },
+        "pasado": {
+          "t": "ate",
+          "ipa": "/eɪt/"
+        },
+        "participio": {
+          "t": "eaten",
+          "ipa": "/ˈiːtən/"
+        }
+      }
+    },
+    {
+      "id": "enjoy",
+      "es": "disfrutar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "enjoy",
+          "ipa": "/ɪnˈdʒɔɪ/"
+        },
+        "tercera": {
+          "t": "enjoys",
+          "ipa": "/ɪnˈdʒɔɪz/"
+        },
+        "ing": {
+          "t": "enjoying",
+          "ipa": "/ɪnˈdʒɔɪɪŋ/"
+        },
+        "pasado": {
+          "t": "enjoyed",
+          "ipa": "/ɪnˈdʒɔɪd/"
+        },
+        "participio": {
+          "t": "enjoyed",
+          "ipa": "/ɪnˈdʒɔɪd/"
+        }
+      }
+    },
+    {
+      "id": "fall",
+      "es": "caer",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "fall",
+          "ipa": "/fɔːl/"
+        },
+        "tercera": {
+          "t": "falls",
+          "ipa": "/fɔːlz/"
+        },
+        "ing": {
+          "t": "falling",
+          "ipa": "/ˈfɔːlɪŋ/"
+        },
+        "pasado": {
+          "t": "fell",
+          "ipa": "/fel/"
+        },
+        "participio": {
+          "t": "fallen",
+          "ipa": "/ˈfɔːlən/"
+        }
+      }
+    },
+    {
+      "id": "feed",
+      "es": "alimentar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "feed",
+          "ipa": "/fiːd/"
+        },
+        "tercera": {
+          "t": "feeds",
+          "ipa": "/fiːdz/"
+        },
+        "ing": {
+          "t": "feeding",
+          "ipa": "/ˈfiːdɪŋ/"
+        },
+        "pasado": {
+          "t": "fed",
+          "ipa": "/fed/"
+        },
+        "participio": {
+          "t": "fed",
+          "ipa": "/fed/"
+        }
+      }
+    },
+    {
+      "id": "feel",
+      "es": "sentir",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "feel",
+          "ipa": "/fiːl/"
+        },
+        "tercera": {
+          "t": "feels",
+          "ipa": "/fiːlz/"
+        },
+        "ing": {
+          "t": "feeling",
+          "ipa": "/ˈfiːlɪŋ/"
+        },
+        "pasado": {
+          "t": "felt",
+          "ipa": "/felt/"
+        },
+        "participio": {
+          "t": "felt",
+          "ipa": "/felt/"
+        }
+      }
+    },
+    {
+      "id": "fight",
+      "es": "pelear",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "fight",
+          "ipa": "/faɪt/"
+        },
+        "tercera": {
+          "t": "fights",
+          "ipa": "/faɪts/"
+        },
+        "ing": {
+          "t": "fighting",
+          "ipa": "/ˈfaɪtɪŋ/"
+        },
+        "pasado": {
+          "t": "fought",
+          "ipa": "/fɔːt/"
+        },
+        "participio": {
+          "t": "fought",
+          "ipa": "/fɔːt/"
+        }
+      }
+    },
+    {
+      "id": "find",
+      "es": "encontrar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "find",
+          "ipa": "/faɪnd/"
+        },
+        "tercera": {
+          "t": "finds",
+          "ipa": "/faɪndz/"
+        },
+        "ing": {
+          "t": "finding",
+          "ipa": "/ˈfaɪndɪŋ/"
+        },
+        "pasado": {
+          "t": "found",
+          "ipa": "/faʊnd/"
+        },
+        "participio": {
+          "t": "found",
+          "ipa": "/faʊnd/"
+        }
+      }
+    },
+    {
+      "id": "finish",
+      "es": "terminar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "finish",
+          "ipa": "/ˈfɪnɪʃ/"
+        },
+        "tercera": {
+          "t": "finishes",
+          "ipa": "/ˈfɪnɪʃɪz/"
+        },
+        "ing": {
+          "t": "finishing",
+          "ipa": "/ˈfɪnɪʃɪŋ/"
+        },
+        "pasado": {
+          "t": "finished",
+          "ipa": "/ˈfɪnɪʃt/"
+        },
+        "participio": {
+          "t": "finished",
+          "ipa": "/ˈfɪnɪʃt/"
+        }
+      }
+    },
+    {
+      "id": "fly",
+      "es": "volar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "fly",
+          "ipa": "/flaɪ/"
+        },
+        "tercera": {
+          "t": "flies",
+          "ipa": "/flaɪz/"
+        },
+        "ing": {
+          "t": "flying",
+          "ipa": "/ˈflaɪɪŋ/"
+        },
+        "pasado": {
+          "t": "flew",
+          "ipa": "/fluː/"
+        },
+        "participio": {
+          "t": "flown",
+          "ipa": "/fləʊn/"
+        }
+      }
+    },
+    {
+      "id": "forget",
+      "es": "olvidar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "forget",
+          "ipa": "/fəˈɡet/"
+        },
+        "tercera": {
+          "t": "forgets",
+          "ipa": "/fəˈɡets/"
+        },
+        "ing": {
+          "t": "forgetting",
+          "ipa": "/fəˈɡetɪŋ/"
+        },
+        "pasado": {
+          "t": "forgot",
+          "ipa": "/fəˈɡɒt/"
+        },
+        "participio": {
+          "t": "forgotten",
+          "ipa": "/fəˈɡɒtən/"
+        }
+      }
+    },
+    {
+      "id": "forgive",
+      "es": "perdonar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "mente"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "forgive",
+          "ipa": "/fəˈɡɪv/"
+        },
+        "tercera": {
+          "t": "forgives",
+          "ipa": "/fəˈɡɪvz/"
+        },
+        "ing": {
+          "t": "forgiving",
+          "ipa": "/fəˈɡɪvɪŋ/"
+        },
+        "pasado": {
+          "t": "forgave",
+          "ipa": "/fəˈɡeɪv/"
+        },
+        "participio": {
+          "t": "forgiven",
+          "ipa": "/fəˈɡɪvən/"
+        }
+      }
+    },
+    {
+      "id": "freeze",
+      "es": "congelar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "freeze",
+          "ipa": "/friːz/"
+        },
+        "tercera": {
+          "t": "freezes",
+          "ipa": "/ˈfriːzɪz/"
+        },
+        "ing": {
+          "t": "freezing",
+          "ipa": "/ˈfriːzɪŋ/"
+        },
+        "pasado": {
+          "t": "froze",
+          "ipa": "/frəʊz/"
+        },
+        "participio": {
+          "t": "frozen",
+          "ipa": "/ˈfrəʊzən/"
+        }
+      }
+    },
+    {
+      "id": "get",
+      "es": "conseguir, obtener",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "rutina",
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "get",
+          "ipa": "/ɡet/"
+        },
+        "tercera": {
+          "t": "gets",
+          "ipa": "/ɡets/"
+        },
+        "ing": {
+          "t": "getting",
+          "ipa": "/ˈɡetɪŋ/"
+        },
+        "pasado": {
+          "t": "got",
+          "ipa": "/ɡɒt/"
+        },
+        "participio": {
+          "t": "got",
+          "ipa": "/ɡɒt/"
+        }
+      }
+    },
+    {
+      "id": "give",
+      "es": "dar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "give",
+          "ipa": "/ɡɪv/"
+        },
+        "tercera": {
+          "t": "gives",
+          "ipa": "/ɡɪvz/"
+        },
+        "ing": {
+          "t": "giving",
+          "ipa": "/ˈɡɪvɪŋ/"
+        },
+        "pasado": {
+          "t": "gave",
+          "ipa": "/ɡeɪv/"
+        },
+        "participio": {
+          "t": "given",
+          "ipa": "/ˈɡɪvən/"
+        }
+      }
+    },
+    {
+      "id": "go",
+      "es": "ir",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento",
+        "rutina"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "go",
+          "ipa": "/ɡəʊ/"
+        },
+        "tercera": {
+          "t": "goes",
+          "ipa": "/ɡəʊz/"
+        },
+        "ing": {
+          "t": "going",
+          "ipa": "/ˈɡəʊɪŋ/"
+        },
+        "pasado": {
+          "t": "went",
+          "ipa": "/went/"
+        },
+        "participio": {
+          "t": "gone",
+          "ipa": "/ɡɒn/"
+        }
+      }
+    },
+    {
+      "id": "grow",
+      "es": "crecer",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "mente"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "grow",
+          "ipa": "/ɡrəʊ/"
+        },
+        "tercera": {
+          "t": "grows",
+          "ipa": "/ɡrəʊz/"
+        },
+        "ing": {
+          "t": "growing",
+          "ipa": "/ˈɡrəʊɪŋ/"
+        },
+        "pasado": {
+          "t": "grew",
+          "ipa": "/ɡruː/"
+        },
+        "participio": {
+          "t": "grown",
+          "ipa": "/ɡrəʊn/"
+        }
+      }
+    },
+    {
+      "id": "hang",
+      "es": "colgar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "hang",
+          "ipa": "/hæŋ/"
+        },
+        "tercera": {
+          "t": "hangs",
+          "ipa": "/hæŋz/"
+        },
+        "ing": {
+          "t": "hanging",
+          "ipa": "/ˈhæŋɪŋ/"
+        },
+        "pasado": {
+          "t": "hung",
+          "ipa": "/hʌŋ/"
+        },
+        "participio": {
+          "t": "hung",
+          "ipa": "/hʌŋ/"
+        }
+      }
+    },
+    {
+      "id": "have",
+      "es": "tener",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "rutina",
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "have",
+          "ipa": "/hæv/"
+        },
+        "tercera": {
+          "t": "has",
+          "ipa": "/hæz/"
+        },
+        "ing": {
+          "t": "having",
+          "ipa": "/ˈhævɪŋ/"
+        },
+        "pasado": {
+          "t": "had",
+          "ipa": "/hæd/"
+        },
+        "participio": {
+          "t": "had",
+          "ipa": "/hæd/"
+        }
+      }
+    },
+    {
+      "id": "hear",
+      "es": "oír",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "comunicacion",
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "hear",
+          "ipa": "/hɪə/"
+        },
+        "tercera": {
+          "t": "hears",
+          "ipa": "/hɪəz/"
+        },
+        "ing": {
+          "t": "hearing",
+          "ipa": "/ˈhɪərɪŋ/"
+        },
+        "pasado": {
+          "t": "heard",
+          "ipa": "/hɜːd/"
+        },
+        "participio": {
+          "t": "heard",
+          "ipa": "/hɜːd/"
+        }
+      }
+    },
+    {
+      "id": "help",
+      "es": "ayudar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "help",
+          "ipa": "/help/"
+        },
+        "tercera": {
+          "t": "helps",
+          "ipa": "/helps/"
+        },
+        "ing": {
+          "t": "helping",
+          "ipa": "/ˈhelpɪŋ/"
+        },
+        "pasado": {
+          "t": "helped",
+          "ipa": "/helpt/"
+        },
+        "participio": {
+          "t": "helped",
+          "ipa": "/helpt/"
+        }
+      }
+    },
+    {
+      "id": "hide",
+      "es": "esconder",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "hide",
+          "ipa": "/haɪd/"
+        },
+        "tercera": {
+          "t": "hides",
+          "ipa": "/haɪdz/"
+        },
+        "ing": {
+          "t": "hiding",
+          "ipa": "/ˈhaɪdɪŋ/"
+        },
+        "pasado": {
+          "t": "hid",
+          "ipa": "/hɪd/"
+        },
+        "participio": {
+          "t": "hidden",
+          "ipa": "/ˈhɪdən/"
+        }
+      }
+    },
+    {
+      "id": "hit",
+      "es": "golpear",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "hit",
+          "ipa": "/hɪt/"
+        },
+        "tercera": {
+          "t": "hits",
+          "ipa": "/hɪts/"
+        },
+        "ing": {
+          "t": "hitting",
+          "ipa": "/ˈhɪtɪŋ/"
+        },
+        "pasado": {
+          "t": "hit",
+          "ipa": "/hɪt/"
+        },
+        "participio": {
+          "t": "hit",
+          "ipa": "/hɪt/"
+        }
+      }
+    },
+    {
+      "id": "hold",
+      "es": "sostener",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "hold",
+          "ipa": "/həʊld/"
+        },
+        "tercera": {
+          "t": "holds",
+          "ipa": "/həʊldz/"
+        },
+        "ing": {
+          "t": "holding",
+          "ipa": "/ˈhəʊldɪŋ/"
+        },
+        "pasado": {
+          "t": "held",
+          "ipa": "/held/"
+        },
+        "participio": {
+          "t": "held",
+          "ipa": "/held/"
+        }
+      }
+    },
+    {
+      "id": "hurt",
+      "es": "doler, herir",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "mente"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "hurt",
+          "ipa": "/hɜːt/"
+        },
+        "tercera": {
+          "t": "hurts",
+          "ipa": "/hɜːts/"
+        },
+        "ing": {
+          "t": "hurting",
+          "ipa": "/ˈhɜːtɪŋ/"
+        },
+        "pasado": {
+          "t": "hurt",
+          "ipa": "/hɜːt/"
+        },
+        "participio": {
+          "t": "hurt",
+          "ipa": "/hɜːt/"
+        }
+      }
+    },
+    {
+      "id": "keep",
+      "es": "guardar, mantener",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "keep",
+          "ipa": "/kiːp/"
+        },
+        "tercera": {
+          "t": "keeps",
+          "ipa": "/kiːps/"
+        },
+        "ing": {
+          "t": "keeping",
+          "ipa": "/ˈkiːpɪŋ/"
+        },
+        "pasado": {
+          "t": "kept",
+          "ipa": "/kept/"
+        },
+        "participio": {
+          "t": "kept",
+          "ipa": "/kept/"
+        }
+      }
+    },
+    {
+      "id": "know",
+      "es": "saber, conocer",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "know",
+          "ipa": "/nəʊ/"
+        },
+        "tercera": {
+          "t": "knows",
+          "ipa": "/nəʊz/"
+        },
+        "ing": {
+          "t": "knowing",
+          "ipa": "/ˈnəʊɪŋ/"
+        },
+        "pasado": {
+          "t": "knew",
+          "ipa": "/njuː/"
+        },
+        "participio": {
+          "t": "known",
+          "ipa": "/nəʊn/"
+        }
+      }
+    },
+    {
+      "id": "lead",
+      "es": "liderar, llevar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "lead",
+          "ipa": "/liːd/"
+        },
+        "tercera": {
+          "t": "leads",
+          "ipa": "/liːdz/"
+        },
+        "ing": {
+          "t": "leading",
+          "ipa": "/ˈliːdɪŋ/"
+        },
+        "pasado": {
+          "t": "led",
+          "ipa": "/led/"
+        },
+        "participio": {
+          "t": "led",
+          "ipa": "/led/"
+        }
+      }
+    },
+    {
+      "id": "learn",
+      "es": "aprender",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "learn",
+          "ipa": "/lɜːn/"
+        },
+        "tercera": {
+          "t": "learns",
+          "ipa": "/lɜːnz/"
+        },
+        "ing": {
+          "t": "learning",
+          "ipa": "/ˈlɜːnɪŋ/"
+        },
+        "pasado": {
+          "t": "learned",
+          "ipa": "/lɜːnd/"
+        },
+        "participio": {
+          "t": "learned",
+          "ipa": "/lɜːnd/"
+        }
+      }
+    },
+    {
+      "id": "leave",
+      "es": "dejar, irse",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "leave",
+          "ipa": "/liːv/"
+        },
+        "tercera": {
+          "t": "leaves",
+          "ipa": "/liːvz/"
+        },
+        "ing": {
+          "t": "leaving",
+          "ipa": "/ˈliːvɪŋ/"
+        },
+        "pasado": {
+          "t": "left",
+          "ipa": "/left/"
+        },
+        "participio": {
+          "t": "left",
+          "ipa": "/left/"
+        }
+      }
+    },
+    {
+      "id": "lend",
+      "es": "prestar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "lend",
+          "ipa": "/lend/"
+        },
+        "tercera": {
+          "t": "lends",
+          "ipa": "/lendz/"
+        },
+        "ing": {
+          "t": "lending",
+          "ipa": "/ˈlendɪŋ/"
+        },
+        "pasado": {
+          "t": "lent",
+          "ipa": "/lent/"
+        },
+        "participio": {
+          "t": "lent",
+          "ipa": "/lent/"
+        }
+      }
+    },
+    {
+      "id": "let",
+      "es": "dejar, permitir",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "let",
+          "ipa": "/let/"
+        },
+        "tercera": {
+          "t": "lets",
+          "ipa": "/lets/"
+        },
+        "ing": {
+          "t": "letting",
+          "ipa": "/ˈletɪŋ/"
+        },
+        "pasado": {
+          "t": "let",
+          "ipa": "/let/"
+        },
+        "participio": {
+          "t": "let",
+          "ipa": "/let/"
+        }
+      }
+    },
+    {
+      "id": "like",
+      "es": "gustar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "like",
+          "ipa": "/laɪk/"
+        },
+        "tercera": {
+          "t": "likes",
+          "ipa": "/laɪks/"
+        },
+        "ing": {
+          "t": "liking",
+          "ipa": "/ˈlaɪkɪŋ/"
+        },
+        "pasado": {
+          "t": "liked",
+          "ipa": "/laɪkt/"
+        },
+        "participio": {
+          "t": "liked",
+          "ipa": "/laɪkt/"
+        }
+      }
+    },
+    {
+      "id": "listen",
+      "es": "escuchar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "comunicacion",
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "listen",
+          "ipa": "/ˈlɪsən/"
+        },
+        "tercera": {
+          "t": "listens",
+          "ipa": "/ˈlɪsənz/"
+        },
+        "ing": {
+          "t": "listening",
+          "ipa": "/ˈlɪsənɪŋ/"
+        },
+        "pasado": {
+          "t": "listened",
+          "ipa": "/ˈlɪsənd/"
+        },
+        "participio": {
+          "t": "listened",
+          "ipa": "/ˈlɪsənd/"
+        }
+      }
+    },
+    {
+      "id": "live",
+      "es": "vivir",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "live",
+          "ipa": "/lɪv/"
+        },
+        "tercera": {
+          "t": "lives",
+          "ipa": "/lɪvz/"
+        },
+        "ing": {
+          "t": "living",
+          "ipa": "/ˈlɪvɪŋ/"
+        },
+        "pasado": {
+          "t": "lived",
+          "ipa": "/lɪvd/"
+        },
+        "participio": {
+          "t": "lived",
+          "ipa": "/lɪvd/"
+        }
+      }
+    },
+    {
+      "id": "lose",
+      "es": "perder",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "lose",
+          "ipa": "/luːz/"
+        },
+        "tercera": {
+          "t": "loses",
+          "ipa": "/ˈluːzɪz/"
+        },
+        "ing": {
+          "t": "losing",
+          "ipa": "/ˈluːzɪŋ/"
+        },
+        "pasado": {
+          "t": "lost",
+          "ipa": "/lɒst/"
+        },
+        "participio": {
+          "t": "lost",
+          "ipa": "/lɒst/"
+        }
+      }
+    },
+    {
+      "id": "love",
+      "es": "amar, encantar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "love",
+          "ipa": "/lʌv/"
+        },
+        "tercera": {
+          "t": "loves",
+          "ipa": "/lʌvz/"
+        },
+        "ing": {
+          "t": "loving",
+          "ipa": "/ˈlʌvɪŋ/"
+        },
+        "pasado": {
+          "t": "loved",
+          "ipa": "/lʌvd/"
+        },
+        "participio": {
+          "t": "loved",
+          "ipa": "/lʌvd/"
+        }
+      }
+    },
+    {
+      "id": "make",
+      "es": "hacer, fabricar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo",
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "make",
+          "ipa": "/meɪk/"
+        },
+        "tercera": {
+          "t": "makes",
+          "ipa": "/meɪks/"
+        },
+        "ing": {
+          "t": "making",
+          "ipa": "/ˈmeɪkɪŋ/"
+        },
+        "pasado": {
+          "t": "made",
+          "ipa": "/meɪd/"
+        },
+        "participio": {
+          "t": "made",
+          "ipa": "/meɪd/"
+        }
+      }
+    },
+    {
+      "id": "mean",
+      "es": "significar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "comunicacion",
+        "mente"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "mean",
+          "ipa": "/miːn/"
+        },
+        "tercera": {
+          "t": "means",
+          "ipa": "/miːnz/"
+        },
+        "ing": {
+          "t": "meaning",
+          "ipa": "/ˈmiːnɪŋ/"
+        },
+        "pasado": {
+          "t": "meant",
+          "ipa": "/ment/"
+        },
+        "participio": {
+          "t": "meant",
+          "ipa": "/ment/"
+        }
+      }
+    },
+    {
+      "id": "meet",
+      "es": "conocer, quedar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo",
+        "comunicacion"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "meet",
+          "ipa": "/miːt/"
+        },
+        "tercera": {
+          "t": "meets",
+          "ipa": "/miːts/"
+        },
+        "ing": {
+          "t": "meeting",
+          "ipa": "/ˈmiːtɪŋ/"
+        },
+        "pasado": {
+          "t": "met",
+          "ipa": "/met/"
+        },
+        "participio": {
+          "t": "met",
+          "ipa": "/met/"
+        }
+      }
+    },
+    {
+      "id": "need",
+      "es": "necesitar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "edSonido": "/ɪd/",
+      "formas": {
+        "base": {
+          "t": "need",
+          "ipa": "/niːd/"
+        },
+        "tercera": {
+          "t": "needs",
+          "ipa": "/niːdz/"
+        },
+        "ing": {
+          "t": "needing",
+          "ipa": "/ˈniːdɪŋ/"
+        },
+        "pasado": {
+          "t": "needed",
+          "ipa": "/ˈniːdɪd/"
+        },
+        "participio": {
+          "t": "needed",
+          "ipa": "/ˈniːdɪd/"
+        }
+      }
+    },
+    {
+      "id": "open",
+      "es": "abrir",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "casa"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "open",
+          "ipa": "/ˈəʊpən/"
+        },
+        "tercera": {
+          "t": "opens",
+          "ipa": "/ˈəʊpənz/"
+        },
+        "ing": {
+          "t": "opening",
+          "ipa": "/ˈəʊpənɪŋ/"
+        },
+        "pasado": {
+          "t": "opened",
+          "ipa": "/ˈəʊpənd/"
+        },
+        "participio": {
+          "t": "opened",
+          "ipa": "/ˈəʊpənd/"
+        }
+      }
+    },
+    {
+      "id": "pay",
+      "es": "pagar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "pay",
+          "ipa": "/peɪ/"
+        },
+        "tercera": {
+          "t": "pays",
+          "ipa": "/peɪz/"
+        },
+        "ing": {
+          "t": "paying",
+          "ipa": "/ˈpeɪɪŋ/"
+        },
+        "pasado": {
+          "t": "paid",
+          "ipa": "/peɪd/"
+        },
+        "participio": {
+          "t": "paid",
+          "ipa": "/peɪd/"
+        }
+      }
+    },
+    {
+      "id": "play",
+      "es": "jugar, tocar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "play",
+          "ipa": "/pleɪ/"
+        },
+        "tercera": {
+          "t": "plays",
+          "ipa": "/pleɪz/"
+        },
+        "ing": {
+          "t": "playing",
+          "ipa": "/ˈpleɪɪŋ/"
+        },
+        "pasado": {
+          "t": "played",
+          "ipa": "/pleɪd/"
+        },
+        "participio": {
+          "t": "played",
+          "ipa": "/pleɪd/"
+        }
+      }
+    },
+    {
+      "id": "put",
+      "es": "poner",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "put",
+          "ipa": "/pʊt/"
+        },
+        "tercera": {
+          "t": "puts",
+          "ipa": "/pʊts/"
+        },
+        "ing": {
+          "t": "putting",
+          "ipa": "/ˈpʊtɪŋ/"
+        },
+        "pasado": {
+          "t": "put",
+          "ipa": "/pʊt/"
+        },
+        "participio": {
+          "t": "put",
+          "ipa": "/pʊt/"
+        }
+      }
+    },
+    {
+      "id": "quit",
+      "es": "dejar, renunciar",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "quit",
+          "ipa": "/kwɪt/"
+        },
+        "tercera": {
+          "t": "quits",
+          "ipa": "/kwɪts/"
+        },
+        "ing": {
+          "t": "quitting",
+          "ipa": "/ˈkwɪtɪŋ/"
+        },
+        "pasado": {
+          "t": "quit",
+          "ipa": "/kwɪt/"
+        },
+        "participio": {
+          "t": "quit",
+          "ipa": "/kwɪt/"
+        }
+      }
+    },
+    {
+      "id": "read",
+      "es": "leer",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "comunicacion",
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "read",
+          "ipa": "/riːd/"
+        },
+        "tercera": {
+          "t": "reads",
+          "ipa": "/riːdz/"
+        },
+        "ing": {
+          "t": "reading",
+          "ipa": "/ˈriːdɪŋ/"
+        },
+        "pasado": {
+          "t": "read",
+          "ipa": "/red/"
+        },
+        "participio": {
+          "t": "read",
+          "ipa": "/red/"
+        }
+      }
+    },
+    {
+      "id": "ride",
+      "es": "montar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "ride",
+          "ipa": "/raɪd/"
+        },
+        "tercera": {
+          "t": "rides",
+          "ipa": "/raɪdz/"
+        },
+        "ing": {
+          "t": "riding",
+          "ipa": "/ˈraɪdɪŋ/"
+        },
+        "pasado": {
+          "t": "rode",
+          "ipa": "/rəʊd/"
+        },
+        "participio": {
+          "t": "ridden",
+          "ipa": "/ˈrɪdən/"
+        }
+      }
+    },
+    {
+      "id": "ring",
+      "es": "sonar, llamar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "ring",
+          "ipa": "/rɪŋ/"
+        },
+        "tercera": {
+          "t": "rings",
+          "ipa": "/rɪŋz/"
+        },
+        "ing": {
+          "t": "ringing",
+          "ipa": "/ˈrɪŋɪŋ/"
+        },
+        "pasado": {
+          "t": "rang",
+          "ipa": "/ræŋ/"
+        },
+        "participio": {
+          "t": "rung",
+          "ipa": "/rʌŋ/"
+        }
+      }
+    },
+    {
+      "id": "rise",
+      "es": "subir, levantarse",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "rise",
+          "ipa": "/raɪz/"
+        },
+        "tercera": {
+          "t": "rises",
+          "ipa": "/ˈraɪzɪz/"
+        },
+        "ing": {
+          "t": "rising",
+          "ipa": "/ˈraɪzɪŋ/"
+        },
+        "pasado": {
+          "t": "rose",
+          "ipa": "/rəʊz/"
+        },
+        "participio": {
+          "t": "risen",
+          "ipa": "/ˈrɪzən/"
+        }
+      }
+    },
+    {
+      "id": "run",
+      "es": "correr",
+      "tipo": "irregular",
+      "patron": "ABA",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "run",
+          "ipa": "/rʌn/"
+        },
+        "tercera": {
+          "t": "runs",
+          "ipa": "/rʌnz/"
+        },
+        "ing": {
+          "t": "running",
+          "ipa": "/ˈrʌnɪŋ/"
+        },
+        "pasado": {
+          "t": "ran",
+          "ipa": "/ræn/"
+        },
+        "participio": {
+          "t": "run",
+          "ipa": "/rʌn/"
+        }
+      }
+    },
+    {
+      "id": "say",
+      "es": "decir",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "say",
+          "ipa": "/seɪ/"
+        },
+        "tercera": {
+          "t": "says",
+          "ipa": "/sez/"
+        },
+        "ing": {
+          "t": "saying",
+          "ipa": "/ˈseɪɪŋ/"
+        },
+        "pasado": {
+          "t": "said",
+          "ipa": "/sed/"
+        },
+        "participio": {
+          "t": "said",
+          "ipa": "/sed/"
+        }
+      }
+    },
+    {
+      "id": "see",
+      "es": "ver",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "see",
+          "ipa": "/siː/"
+        },
+        "tercera": {
+          "t": "sees",
+          "ipa": "/siːz/"
+        },
+        "ing": {
+          "t": "seeing",
+          "ipa": "/ˈsiːɪŋ/"
+        },
+        "pasado": {
+          "t": "saw",
+          "ipa": "/sɔː/"
+        },
+        "participio": {
+          "t": "seen",
+          "ipa": "/siːn/"
+        }
+      }
+    },
+    {
+      "id": "sell",
+      "es": "vender",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "sell",
+          "ipa": "/sel/"
+        },
+        "tercera": {
+          "t": "sells",
+          "ipa": "/selz/"
+        },
+        "ing": {
+          "t": "selling",
+          "ipa": "/ˈselɪŋ/"
+        },
+        "pasado": {
+          "t": "sold",
+          "ipa": "/səʊld/"
+        },
+        "participio": {
+          "t": "sold",
+          "ipa": "/səʊld/"
+        }
+      }
+    },
+    {
+      "id": "send",
+      "es": "enviar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "comunicacion",
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "send",
+          "ipa": "/send/"
+        },
+        "tercera": {
+          "t": "sends",
+          "ipa": "/sendz/"
+        },
+        "ing": {
+          "t": "sending",
+          "ipa": "/ˈsendɪŋ/"
+        },
+        "pasado": {
+          "t": "sent",
+          "ipa": "/sent/"
+        },
+        "participio": {
+          "t": "sent",
+          "ipa": "/sent/"
+        }
+      }
+    },
+    {
+      "id": "set",
+      "es": "fijar, establecer",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "set",
+          "ipa": "/set/"
+        },
+        "tercera": {
+          "t": "sets",
+          "ipa": "/sets/"
+        },
+        "ing": {
+          "t": "setting",
+          "ipa": "/ˈsetɪŋ/"
+        },
+        "pasado": {
+          "t": "set",
+          "ipa": "/set/"
+        },
+        "participio": {
+          "t": "set",
+          "ipa": "/set/"
+        }
+      }
+    },
+    {
+      "id": "shake",
+      "es": "sacudir",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "shake",
+          "ipa": "/ʃeɪk/"
+        },
+        "tercera": {
+          "t": "shakes",
+          "ipa": "/ʃeɪks/"
+        },
+        "ing": {
+          "t": "shaking",
+          "ipa": "/ˈʃeɪkɪŋ/"
+        },
+        "pasado": {
+          "t": "shook",
+          "ipa": "/ʃʊk/"
+        },
+        "participio": {
+          "t": "shaken",
+          "ipa": "/ˈʃeɪkən/"
+        }
+      }
+    },
+    {
+      "id": "show",
+      "es": "mostrar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "show",
+          "ipa": "/ʃəʊ/"
+        },
+        "tercera": {
+          "t": "shows",
+          "ipa": "/ʃəʊz/"
+        },
+        "ing": {
+          "t": "showing",
+          "ipa": "/ˈʃəʊɪŋ/"
+        },
+        "pasado": {
+          "t": "showed",
+          "ipa": "/ʃəʊd/"
+        },
+        "participio": {
+          "t": "shown",
+          "ipa": "/ʃəʊn/"
+        }
+      }
+    },
+    {
+      "id": "shut",
+      "es": "cerrar",
+      "tipo": "irregular",
+      "patron": "AAA",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "shut",
+          "ipa": "/ʃʌt/"
+        },
+        "tercera": {
+          "t": "shuts",
+          "ipa": "/ʃʌts/"
+        },
+        "ing": {
+          "t": "shutting",
+          "ipa": "/ˈʃʌtɪŋ/"
+        },
+        "pasado": {
+          "t": "shut",
+          "ipa": "/ʃʌt/"
+        },
+        "participio": {
+          "t": "shut",
+          "ipa": "/ʃʌt/"
+        }
+      }
+    },
+    {
+      "id": "sing",
+      "es": "cantar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "sing",
+          "ipa": "/sɪŋ/"
+        },
+        "tercera": {
+          "t": "sings",
+          "ipa": "/sɪŋz/"
+        },
+        "ing": {
+          "t": "singing",
+          "ipa": "/ˈsɪŋɪŋ/"
+        },
+        "pasado": {
+          "t": "sang",
+          "ipa": "/sæŋ/"
+        },
+        "participio": {
+          "t": "sung",
+          "ipa": "/sʌŋ/"
+        }
+      }
+    },
+    {
+      "id": "sit",
+      "es": "sentarse",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "movimiento",
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "sit",
+          "ipa": "/sɪt/"
+        },
+        "tercera": {
+          "t": "sits",
+          "ipa": "/sɪts/"
+        },
+        "ing": {
+          "t": "sitting",
+          "ipa": "/ˈsɪtɪŋ/"
+        },
+        "pasado": {
+          "t": "sat",
+          "ipa": "/sæt/"
+        },
+        "participio": {
+          "t": "sat",
+          "ipa": "/sæt/"
+        }
+      }
+    },
+    {
+      "id": "sleep",
+      "es": "dormir",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "rutina"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "sleep",
+          "ipa": "/sliːp/"
+        },
+        "tercera": {
+          "t": "sleeps",
+          "ipa": "/sliːps/"
+        },
+        "ing": {
+          "t": "sleeping",
+          "ipa": "/ˈsliːpɪŋ/"
+        },
+        "pasado": {
+          "t": "slept",
+          "ipa": "/slept/"
+        },
+        "participio": {
+          "t": "slept",
+          "ipa": "/slept/"
+        }
+      }
+    },
+    {
+      "id": "speak",
+      "es": "hablar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "speak",
+          "ipa": "/spiːk/"
+        },
+        "tercera": {
+          "t": "speaks",
+          "ipa": "/spiːks/"
+        },
+        "ing": {
+          "t": "speaking",
+          "ipa": "/ˈspiːkɪŋ/"
+        },
+        "pasado": {
+          "t": "spoke",
+          "ipa": "/spəʊk/"
+        },
+        "participio": {
+          "t": "spoken",
+          "ipa": "/ˈspəʊkən/"
+        }
+      }
+    },
+    {
+      "id": "spend",
+      "es": "gastar, pasar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "spend",
+          "ipa": "/spend/"
+        },
+        "tercera": {
+          "t": "spends",
+          "ipa": "/spendz/"
+        },
+        "ing": {
+          "t": "spending",
+          "ipa": "/ˈspendɪŋ/"
+        },
+        "pasado": {
+          "t": "spent",
+          "ipa": "/spent/"
+        },
+        "participio": {
+          "t": "spent",
+          "ipa": "/spent/"
+        }
+      }
+    },
+    {
+      "id": "stand",
+      "es": "estar de pie",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "stand",
+          "ipa": "/stænd/"
+        },
+        "tercera": {
+          "t": "stands",
+          "ipa": "/stændz/"
+        },
+        "ing": {
+          "t": "standing",
+          "ipa": "/ˈstændɪŋ/"
+        },
+        "pasado": {
+          "t": "stood",
+          "ipa": "/stʊd/"
+        },
+        "participio": {
+          "t": "stood",
+          "ipa": "/stʊd/"
+        }
+      }
+    },
+    {
+      "id": "start",
+      "es": "empezar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "edSonido": "/ɪd/",
+      "formas": {
+        "base": {
+          "t": "start",
+          "ipa": "/stɑːt/"
+        },
+        "tercera": {
+          "t": "starts",
+          "ipa": "/stɑːts/"
+        },
+        "ing": {
+          "t": "starting",
+          "ipa": "/ˈstɑːtɪŋ/"
+        },
+        "pasado": {
+          "t": "started",
+          "ipa": "/ˈstɑːtɪd/"
+        },
+        "participio": {
+          "t": "started",
+          "ipa": "/ˈstɑːtɪd/"
+        }
+      }
+    },
+    {
+      "id": "steal",
+      "es": "robar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "steal",
+          "ipa": "/stiːl/"
+        },
+        "tercera": {
+          "t": "steals",
+          "ipa": "/stiːlz/"
+        },
+        "ing": {
+          "t": "stealing",
+          "ipa": "/ˈstiːlɪŋ/"
+        },
+        "pasado": {
+          "t": "stole",
+          "ipa": "/stəʊl/"
+        },
+        "participio": {
+          "t": "stolen",
+          "ipa": "/ˈstəʊlən/"
+        }
+      }
+    },
+    {
+      "id": "stick",
+      "es": "pegar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "stick",
+          "ipa": "/stɪk/"
+        },
+        "tercera": {
+          "t": "sticks",
+          "ipa": "/stɪks/"
+        },
+        "ing": {
+          "t": "sticking",
+          "ipa": "/ˈstɪkɪŋ/"
+        },
+        "pasado": {
+          "t": "stuck",
+          "ipa": "/stʌk/"
+        },
+        "participio": {
+          "t": "stuck",
+          "ipa": "/stʌk/"
+        }
+      }
+    },
+    {
+      "id": "stop",
+      "es": "parar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "stop",
+          "ipa": "/stɒp/"
+        },
+        "tercera": {
+          "t": "stops",
+          "ipa": "/stɒps/"
+        },
+        "ing": {
+          "t": "stopping",
+          "ipa": "/ˈstɒpɪŋ/"
+        },
+        "pasado": {
+          "t": "stopped",
+          "ipa": "/stɒpt/"
+        },
+        "participio": {
+          "t": "stopped",
+          "ipa": "/stɒpt/"
+        }
+      }
+    },
+    {
+      "id": "study",
+      "es": "estudiar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "trabajo",
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "study",
+          "ipa": "/ˈstʌdi/"
+        },
+        "tercera": {
+          "t": "studies",
+          "ipa": "/ˈstʌdiz/"
+        },
+        "ing": {
+          "t": "studying",
+          "ipa": "/ˈstʌdiɪŋ/"
+        },
+        "pasado": {
+          "t": "studied",
+          "ipa": "/ˈstʌdid/"
+        },
+        "participio": {
+          "t": "studied",
+          "ipa": "/ˈstʌdid/"
+        }
+      }
+    },
+    {
+      "id": "swim",
+      "es": "nadar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "swim",
+          "ipa": "/swɪm/"
+        },
+        "tercera": {
+          "t": "swims",
+          "ipa": "/swɪmz/"
+        },
+        "ing": {
+          "t": "swimming",
+          "ipa": "/ˈswɪmɪŋ/"
+        },
+        "pasado": {
+          "t": "swam",
+          "ipa": "/swæm/"
+        },
+        "participio": {
+          "t": "swum",
+          "ipa": "/swʌm/"
+        }
+      }
+    },
+    {
+      "id": "take",
+      "es": "tomar, coger",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento",
+        "casa"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "take",
+          "ipa": "/teɪk/"
+        },
+        "tercera": {
+          "t": "takes",
+          "ipa": "/teɪks/"
+        },
+        "ing": {
+          "t": "taking",
+          "ipa": "/ˈteɪkɪŋ/"
+        },
+        "pasado": {
+          "t": "took",
+          "ipa": "/tʊk/"
+        },
+        "participio": {
+          "t": "taken",
+          "ipa": "/ˈteɪkən/"
+        }
+      }
+    },
+    {
+      "id": "talk",
+      "es": "hablar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "talk",
+          "ipa": "/tɔːk/"
+        },
+        "tercera": {
+          "t": "talks",
+          "ipa": "/tɔːks/"
+        },
+        "ing": {
+          "t": "talking",
+          "ipa": "/ˈtɔːkɪŋ/"
+        },
+        "pasado": {
+          "t": "talked",
+          "ipa": "/tɔːkt/"
+        },
+        "participio": {
+          "t": "talked",
+          "ipa": "/tɔːkt/"
+        }
+      }
+    },
+    {
+      "id": "teach",
+      "es": "enseñar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "teach",
+          "ipa": "/tiːtʃ/"
+        },
+        "tercera": {
+          "t": "teaches",
+          "ipa": "/ˈtiːtʃɪz/"
+        },
+        "ing": {
+          "t": "teaching",
+          "ipa": "/ˈtiːtʃɪŋ/"
+        },
+        "pasado": {
+          "t": "taught",
+          "ipa": "/tɔːt/"
+        },
+        "participio": {
+          "t": "taught",
+          "ipa": "/tɔːt/"
+        }
+      }
+    },
+    {
+      "id": "tear",
+      "es": "rasgar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "tear",
+          "ipa": "/teə/"
+        },
+        "tercera": {
+          "t": "tears",
+          "ipa": "/teəz/"
+        },
+        "ing": {
+          "t": "tearing",
+          "ipa": "/ˈteərɪŋ/"
+        },
+        "pasado": {
+          "t": "tore",
+          "ipa": "/tɔː/"
+        },
+        "participio": {
+          "t": "torn",
+          "ipa": "/tɔːn/"
+        }
+      }
+    },
+    {
+      "id": "tell",
+      "es": "contar, decir",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "comunicacion"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "tell",
+          "ipa": "/tel/"
+        },
+        "tercera": {
+          "t": "tells",
+          "ipa": "/telz/"
+        },
+        "ing": {
+          "t": "telling",
+          "ipa": "/ˈtelɪŋ/"
+        },
+        "pasado": {
+          "t": "told",
+          "ipa": "/təʊld/"
+        },
+        "participio": {
+          "t": "told",
+          "ipa": "/təʊld/"
+        }
+      }
+    },
+    {
+      "id": "think",
+      "es": "pensar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "think",
+          "ipa": "/θɪŋk/"
+        },
+        "tercera": {
+          "t": "thinks",
+          "ipa": "/θɪŋks/"
+        },
+        "ing": {
+          "t": "thinking",
+          "ipa": "/ˈθɪŋkɪŋ/"
+        },
+        "pasado": {
+          "t": "thought",
+          "ipa": "/θɔːt/"
+        },
+        "participio": {
+          "t": "thought",
+          "ipa": "/θɔːt/"
+        }
+      }
+    },
+    {
+      "id": "throw",
+      "es": "lanzar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "throw",
+          "ipa": "/θrəʊ/"
+        },
+        "tercera": {
+          "t": "throws",
+          "ipa": "/θrəʊz/"
+        },
+        "ing": {
+          "t": "throwing",
+          "ipa": "/ˈθrəʊɪŋ/"
+        },
+        "pasado": {
+          "t": "threw",
+          "ipa": "/θruː/"
+        },
+        "participio": {
+          "t": "thrown",
+          "ipa": "/θrəʊn/"
+        }
+      }
+    },
+    {
+      "id": "travel",
+      "es": "viajar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "travel",
+          "ipa": "/ˈtrævəl/"
+        },
+        "tercera": {
+          "t": "travels",
+          "ipa": "/ˈtrævəlz/"
+        },
+        "ing": {
+          "t": "travelling",
+          "ipa": "/ˈtrævəlɪŋ/"
+        },
+        "pasado": {
+          "t": "travelled",
+          "ipa": "/ˈtrævəld/"
+        },
+        "participio": {
+          "t": "travelled",
+          "ipa": "/ˈtrævəld/"
+        }
+      }
+    },
+    {
+      "id": "try",
+      "es": "intentar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "try",
+          "ipa": "/traɪ/"
+        },
+        "tercera": {
+          "t": "tries",
+          "ipa": "/traɪz/"
+        },
+        "ing": {
+          "t": "trying",
+          "ipa": "/ˈtraɪɪŋ/"
+        },
+        "pasado": {
+          "t": "tried",
+          "ipa": "/traɪd/"
+        },
+        "participio": {
+          "t": "tried",
+          "ipa": "/traɪd/"
+        }
+      }
+    },
+    {
+      "id": "understand",
+      "es": "entender",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "understand",
+          "ipa": "/ˌʌndəˈstænd/"
+        },
+        "tercera": {
+          "t": "understands",
+          "ipa": "/ˌʌndəˈstændz/"
+        },
+        "ing": {
+          "t": "understanding",
+          "ipa": "/ˌʌndəˈstændɪŋ/"
+        },
+        "pasado": {
+          "t": "understood",
+          "ipa": "/ˌʌndəˈstʊd/"
+        },
+        "participio": {
+          "t": "understood",
+          "ipa": "/ˌʌndəˈstʊd/"
+        }
+      }
+    },
+    {
+      "id": "use",
+      "es": "usar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "edSonido": "/d/",
+      "formas": {
+        "base": {
+          "t": "use",
+          "ipa": "/juːz/"
+        },
+        "tercera": {
+          "t": "uses",
+          "ipa": "/ˈjuːzɪz/"
+        },
+        "ing": {
+          "t": "using",
+          "ipa": "/ˈjuːzɪŋ/"
+        },
+        "pasado": {
+          "t": "used",
+          "ipa": "/juːzd/"
+        },
+        "participio": {
+          "t": "used",
+          "ipa": "/juːzd/"
+        }
+      }
+    },
+    {
+      "id": "visit",
+      "es": "visitar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "movimiento"
+      ],
+      "esencial": true,
+      "edSonido": "/ɪd/",
+      "formas": {
+        "base": {
+          "t": "visit",
+          "ipa": "/ˈvɪzɪt/"
+        },
+        "tercera": {
+          "t": "visits",
+          "ipa": "/ˈvɪzɪts/"
+        },
+        "ing": {
+          "t": "visiting",
+          "ipa": "/ˈvɪzɪtɪŋ/"
+        },
+        "pasado": {
+          "t": "visited",
+          "ipa": "/ˈvɪzɪtɪd/"
+        },
+        "participio": {
+          "t": "visited",
+          "ipa": "/ˈvɪzɪtɪd/"
+        }
+      }
+    },
+    {
+      "id": "wait",
+      "es": "esperar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/ɪd/",
+      "formas": {
+        "base": {
+          "t": "wait",
+          "ipa": "/weɪt/"
+        },
+        "tercera": {
+          "t": "waits",
+          "ipa": "/weɪts/"
+        },
+        "ing": {
+          "t": "waiting",
+          "ipa": "/ˈweɪtɪŋ/"
+        },
+        "pasado": {
+          "t": "waited",
+          "ipa": "/ˈweɪtɪd/"
+        },
+        "participio": {
+          "t": "waited",
+          "ipa": "/ˈweɪtɪd/"
+        }
+      }
+    },
+    {
+      "id": "wake",
+      "es": "despertar",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "rutina"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "wake",
+          "ipa": "/weɪk/"
+        },
+        "tercera": {
+          "t": "wakes",
+          "ipa": "/weɪks/"
+        },
+        "ing": {
+          "t": "waking",
+          "ipa": "/ˈweɪkɪŋ/"
+        },
+        "pasado": {
+          "t": "woke",
+          "ipa": "/wəʊk/"
+        },
+        "participio": {
+          "t": "woken",
+          "ipa": "/ˈwəʊkən/"
+        }
+      }
+    },
+    {
+      "id": "walk",
+      "es": "caminar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "movimiento",
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "walk",
+          "ipa": "/wɔːk/"
+        },
+        "tercera": {
+          "t": "walks",
+          "ipa": "/wɔːks/"
+        },
+        "ing": {
+          "t": "walking",
+          "ipa": "/ˈwɔːkɪŋ/"
+        },
+        "pasado": {
+          "t": "walked",
+          "ipa": "/wɔːkt/"
+        },
+        "participio": {
+          "t": "walked",
+          "ipa": "/wɔːkt/"
+        }
+      }
+    },
+    {
+      "id": "want",
+      "es": "querer",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "mente"
+      ],
+      "esencial": true,
+      "edSonido": "/ɪd/",
+      "formas": {
+        "base": {
+          "t": "want",
+          "ipa": "/wɒnt/"
+        },
+        "tercera": {
+          "t": "wants",
+          "ipa": "/wɒnts/"
+        },
+        "ing": {
+          "t": "wanting",
+          "ipa": "/ˈwɒntɪŋ/"
+        },
+        "pasado": {
+          "t": "wanted",
+          "ipa": "/ˈwɒntɪd/"
+        },
+        "participio": {
+          "t": "wanted",
+          "ipa": "/ˈwɒntɪd/"
+        }
+      }
+    },
+    {
+      "id": "watch",
+      "es": "ver, mirar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "watch",
+          "ipa": "/wɒtʃ/"
+        },
+        "tercera": {
+          "t": "watches",
+          "ipa": "/ˈwɒtʃɪz/"
+        },
+        "ing": {
+          "t": "watching",
+          "ipa": "/ˈwɒtʃɪŋ/"
+        },
+        "pasado": {
+          "t": "watched",
+          "ipa": "/wɒtʃt/"
+        },
+        "participio": {
+          "t": "watched",
+          "ipa": "/wɒtʃt/"
+        }
+      }
+    },
+    {
+      "id": "wear",
+      "es": "llevar puesto",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "casa"
+      ],
+      "esencial": false,
+      "formas": {
+        "base": {
+          "t": "wear",
+          "ipa": "/weə/"
+        },
+        "tercera": {
+          "t": "wears",
+          "ipa": "/weəz/"
+        },
+        "ing": {
+          "t": "wearing",
+          "ipa": "/ˈweərɪŋ/"
+        },
+        "pasado": {
+          "t": "wore",
+          "ipa": "/wɔː/"
+        },
+        "participio": {
+          "t": "worn",
+          "ipa": "/wɔːn/"
+        }
+      }
+    },
+    {
+      "id": "win",
+      "es": "ganar",
+      "tipo": "irregular",
+      "patron": "ABB",
+      "temas": [
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "win",
+          "ipa": "/wɪn/"
+        },
+        "tercera": {
+          "t": "wins",
+          "ipa": "/wɪnz/"
+        },
+        "ing": {
+          "t": "winning",
+          "ipa": "/ˈwɪnɪŋ/"
+        },
+        "pasado": {
+          "t": "won",
+          "ipa": "/wʌn/"
+        },
+        "participio": {
+          "t": "won",
+          "ipa": "/wʌn/"
+        }
+      }
+    },
+    {
+      "id": "work",
+      "es": "trabajar",
+      "tipo": "regular",
+      "patron": null,
+      "temas": [
+        "trabajo",
+        "rutina"
+      ],
+      "esencial": true,
+      "edSonido": "/t/",
+      "formas": {
+        "base": {
+          "t": "work",
+          "ipa": "/wɜːk/"
+        },
+        "tercera": {
+          "t": "works",
+          "ipa": "/wɜːks/"
+        },
+        "ing": {
+          "t": "working",
+          "ipa": "/ˈwɜːkɪŋ/"
+        },
+        "pasado": {
+          "t": "worked",
+          "ipa": "/wɜːkt/"
+        },
+        "participio": {
+          "t": "worked",
+          "ipa": "/wɜːkt/"
+        }
+      }
+    },
+    {
+      "id": "write",
+      "es": "escribir",
+      "tipo": "irregular",
+      "patron": "ABC",
+      "temas": [
+        "comunicacion",
+        "trabajo"
+      ],
+      "esencial": true,
+      "formas": {
+        "base": {
+          "t": "write",
+          "ipa": "/raɪt/"
+        },
+        "tercera": {
+          "t": "writes",
+          "ipa": "/raɪts/"
+        },
+        "ing": {
+          "t": "writing",
+          "ipa": "/ˈraɪtɪŋ/"
+        },
+        "pasado": {
+          "t": "wrote",
+          "ipa": "/rəʊt/"
+        },
+        "participio": {
+          "t": "written",
+          "ipa": "/ˈrɪtən/"
+        }
+      }
+    }
+  ]
+}

@@ -904,6 +904,121 @@ h1, h2, h3, .display { font-family: 'Outfit', sans-serif; letter-spacing: -.015e
 
 .tema__practicar { margin-top: var(--e5); }
 
+/* ── Listado de verbos ───────────────────────────────────────────────────── */
+.verbos { padding-bottom: var(--e4); }
+
+.buscador { position: relative; margin: var(--e2) 0 var(--e3); }
+.buscador__campo {
+  width: 100%; font: inherit; font-size: 16px; color: var(--tinta);
+  background: var(--vidrio-fuerte);
+  backdrop-filter: var(--desenfoque); -webkit-backdrop-filter: var(--desenfoque);
+  border: 1.5px solid var(--vidrio-borde);
+  box-shadow: var(--sombra-corta);
+  border-radius: var(--r-full); padding: 14px var(--e4); min-height: var(--tap);
+  transition: border-color var(--t-medio) var(--sale), box-shadow var(--t-medio) var(--sale);
+}
+.buscador__campo:focus { outline: none; border-color: var(--menta); box-shadow: 0 0 0 4px rgba(13, 148, 136, .14); }
+.buscador__campo::-webkit-search-cancel-button { display: none; }
+.buscador__limpiar {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+  width: 44px; height: 44px; display: grid; place-items: center;
+  background: none; border: none; color: var(--tinta-suave); cursor: pointer;
+  border-radius: var(--r-full);
+}
+.buscador__limpiar:active { transform: translateY(-50%) scale(.9); }
+
+/* Tiras de fichas en vez de desplegables: en móvil un <select> abre una rueda
+   que tapa media pantalla, y aquí lo normal es ir probando combinaciones.
+   Se desplazan en horizontal para no comerse el alto de la lista. */
+.filtros {
+  display: flex; gap: 6px; margin-bottom: var(--e1);
+  overflow-x: auto; padding-bottom: 4px;
+  scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.filtros::-webkit-scrollbar { display: none; }
+.filtro {
+  flex: none; font: inherit; font-size: 14px; font-weight: 600;
+  color: var(--tinta-media); white-space: nowrap;
+  background: var(--vidrio); border: 1.5px solid var(--vidrio-borde);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  border-radius: var(--r-full); padding: 9px 15px; min-height: 42px; cursor: pointer;
+  transition: transform var(--t-toque) var(--sale), border-color var(--t-toque) var(--sale),
+              background var(--t-toque) var(--sale), color var(--t-toque) var(--sale);
+}
+.filtro:active { transform: scale(.95); }
+.filtro--activo { background: var(--menta); border-color: var(--menta); color: #fff; }
+.filtros__ayuda {
+  font-size: 13.5px; color: var(--tinta-media); margin: 0 0 var(--e2);
+  padding: 8px 14px; border-radius: var(--r-md);
+  background: rgba(253, 230, 138, .38); border: 1px solid rgba(255, 255, 255, .7);
+}
+.filtros__ayuda strong { color: var(--tinta); }
+
+.verbos__cuenta {
+  font-size: 13px; color: var(--tinta-suave); font-weight: 600;
+  margin: var(--e2) 0 var(--e2); font-variant-numeric: tabular-nums;
+}
+
+.verbos__lista { display: flex; flex-direction: column; gap: var(--e2); }
+
+.verbo {
+  border-radius: var(--r-lg); padding: var(--e3);
+  background: var(--vidrio);
+  backdrop-filter: var(--desenfoque); -webkit-backdrop-filter: var(--desenfoque);
+  border: 1px solid var(--vidrio-borde);
+  box-shadow: var(--sombra-corta);
+}
+.verbo__cabecera {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: var(--e2);
+  margin-bottom: var(--e2);
+}
+.verbo__nombre { font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 700; margin: 0; }
+.verbo__es { margin: 0; font-size: 14px; color: var(--tinta-suave); }
+.verbo__marcas { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex: none; }
+
+.marca {
+  font-size: 11px; font-weight: 700; letter-spacing: .04em;
+  border-radius: var(--r-full); padding: 3px 9px; white-space: nowrap;
+}
+.marca--irregular { background: rgba(124, 58, 237, .12); color: var(--violeta); }
+.marca--regular   { background: rgba(204, 251, 241, .8); color: var(--menta-honda); }
+.marca--ed        { background: rgba(253, 230, 138, .5); color: #92600a; }
+
+/* auto-fit: tres columnas en móvil y las cinco formas en una fila en pantalla
+   grande, sin necesidad de un punto de ruptura propio. */
+.verbo__formas { display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 6px; }
+
+.forma {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 1px;
+  font: inherit; text-align: left; cursor: pointer;
+  background: var(--vidrio-fuerte); border: 1px solid var(--vidrio-borde);
+  border-radius: var(--r-md); padding: 8px 10px; min-height: 62px;
+  transition: transform var(--t-toque) var(--sale), border-color var(--t-toque) var(--sale);
+}
+.forma:active { transform: scale(.95); border-color: var(--menta); }
+.forma__etiqueta {
+  font-size: 9.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--tinta-suave);
+}
+.forma__texto { font-size: 15.5px; font-weight: 700; color: var(--tinta); line-height: 1.25; }
+.forma__ipa { font-size: 12px; color: var(--menta-honda); line-height: 1.25; }
+
+.vacio {
+  text-align: center; padding: var(--e5) var(--e3);
+  border-radius: var(--r-lg);
+  background: var(--vidrio); border: 1px dashed var(--borde, rgba(15, 46, 43, .16));
+}
+.vacio p { margin: 0 0 var(--e1); color: var(--tinta-media); }
+.vacio .boton { margin-top: var(--e2); }
+
+.verbos__nota {
+  display: flex; align-items: flex-start; gap: 8px;
+  font-size: 12.5px; color: var(--tinta-suave); line-height: 1.5;
+  margin-top: var(--e4); padding-top: var(--e3);
+  border-top: 1px solid var(--vidrio-linea);
+}
+.verbos__nota svg { flex: none; margin-top: 2px; }
+
 /* ═══════════════════════════════════════════════════════════════════════════
    Responsive
 

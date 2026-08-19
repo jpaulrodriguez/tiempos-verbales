@@ -1,8 +1,9 @@
-import { Casa, Libro, Perfil } from './Iconos.jsx'
+import { Casa, Libro, Lista, Perfil } from './Iconos.jsx'
 
 const PESTANAS = [
   { id: 'mapa', etiqueta: 'Aprender', Icono: Casa },
   { id: 'guia', etiqueta: 'Guía', Icono: Libro },
+  { id: 'verbos', etiqueta: 'Verbos', Icono: Lista },
   { id: 'perfil', etiqueta: 'Perfil', Icono: Perfil },
 ]
 
