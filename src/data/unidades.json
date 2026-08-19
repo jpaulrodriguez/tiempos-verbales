@@ -1,0 +1,313 @@
+{
+  "titulo": "Tiempos Verbales",
+  "unidades": [
+    {
+      "id": "orto-tercera",
+      "titulo": "La -s de he/she/it",
+      "bloque": "Cimientos",
+      "icono": "S",
+      "requiere": [],
+      "metafora": "La -s es el chivato de he, she e it. Si el sujeto es uno solo y no eres tú ni yo, el verbo lleva su marca.",
+      "nivel": "A1"
+    },
+    {
+      "id": "orto-gerundio",
+      "titulo": "El verbo en -ing",
+      "bloque": "Cimientos",
+      "icono": "◐",
+      "requiere": [],
+      "metafora": "La consonante se agarra fuerte para que la vocal no se escape: stop → stopping, no stoping.",
+      "nivel": "A1"
+    },
+    {
+      "id": "orto-pasado",
+      "titulo": "El verbo en -ed",
+      "bloque": "Cimientos",
+      "icono": "◀",
+      "requiere": [],
+      "metafora": "El -ed es la etiqueta de «esto ya pasó». Solo hay que saber dónde pegarla sin arrugar la palabra.",
+      "nivel": "A1"
+    },
+    {
+      "id": "present-simple",
+      "titulo": "Present Simple",
+      "bloque": "Presente",
+      "icono": "●",
+      "requiere": [
+        "orto-tercera"
+      ],
+      "metafora": "El horario del metro. Pasa siempre igual, esté yo mirando o no.",
+      "nivel": "A1"
+    },
+    {
+      "id": "present-continuous",
+      "titulo": "Present Continuous",
+      "bloque": "Presente",
+      "icono": "▶",
+      "requiere": [
+        "orto-gerundio"
+      ],
+      "metafora": "La story de Instagram. Está pasando ahora y se cae en 24 horas.",
+      "nivel": "A1"
+    },
+    {
+      "id": "contraste-presente",
+      "titulo": "Simple vs Continuous",
+      "bloque": "Presente",
+      "icono": "⇄",
+      "requiere": [
+        "present-simple",
+        "present-continuous"
+      ],
+      "metafora": "Horario o story. Y ojo: hay verbos que no se pueden estar haciendo, porque no se hacen, se tienen.",
+      "nivel": "A1"
+    },
+    {
+      "id": "present-perfect",
+      "titulo": "Present Perfect",
+      "bloque": "Presente",
+      "icono": "◆",
+      "requiere": [
+        "orto-pasado"
+      ],
+      "metafora": "La mochila. Llevas encima lo que te ha pasado, pero no dices cuándo lo metiste.",
+      "nivel": "A2"
+    },
+    {
+      "id": "present-perfect-continuous",
+      "titulo": "Present Perfect Continuous",
+      "bloque": "Presente",
+      "icono": "◈",
+      "requiere": [
+        "present-perfect"
+      ],
+      "metafora": "El cronómetro corriendo. Lo que importa no es qué hiciste, sino cuánto llevas.",
+      "nivel": "B1"
+    },
+    {
+      "id": "contraste-perfect",
+      "titulo": "Perfect: simple vs continuous",
+      "bloque": "Presente",
+      "icono": "⇄",
+      "requiere": [
+        "present-perfect",
+        "present-perfect-continuous"
+      ],
+      "metafora": "Cuántos o cuánto tiempo. For mide duración, since marca el punto de salida.",
+      "nivel": "B1"
+    },
+    {
+      "id": "past-simple",
+      "titulo": "Past Simple",
+      "bloque": "Pasado",
+      "icono": "◀",
+      "requiere": [
+        "orto-pasado"
+      ],
+      "metafora": "La foto. Momento cerrado, con fecha al dorso.",
+      "nivel": "A1"
+    },
+    {
+      "id": "contraste-pp-ps",
+      "titulo": "Mochila vs foto",
+      "bloque": "Pasado",
+      "icono": "⇄",
+      "requiere": [
+        "present-perfect",
+        "past-simple"
+      ],
+      "metafora": "La mochila lleva lo que te ha pasado sin decir cuándo; la foto tiene fecha al dorso. En cuanto aparece la fecha —yesterday, last week, in 2019— la mochila se cae.",
+      "nivel": "A2"
+    },
+    {
+      "id": "past-continuous",
+      "titulo": "Past Continuous",
+      "bloque": "Pasado",
+      "icono": "◁",
+      "requiere": [
+        "past-simple"
+      ],
+      "metafora": "El vídeo de fondo. Estaba grabando cuando pasó algo.",
+      "nivel": "A2"
+    },
+    {
+      "id": "contraste-pasado",
+      "titulo": "Foto vs vídeo",
+      "bloque": "Pasado",
+      "icono": "⇄",
+      "requiere": [
+        "past-simple",
+        "past-continuous"
+      ],
+      "metafora": "El vídeo largo va en continuous; lo que lo interrumpe, en simple.",
+      "nivel": "A2"
+    },
+    {
+      "id": "past-perfect",
+      "titulo": "Past Perfect",
+      "bloque": "Pasado",
+      "icono": "◇",
+      "requiere": [
+        "past-simple"
+      ],
+      "metafora": "El flashback de la peli. Lo que ya había pasado antes de la escena que cuentas.",
+      "nivel": "B1"
+    },
+    {
+      "id": "past-perfect-continuous",
+      "titulo": "Past Perfect Continuous",
+      "bloque": "Pasado",
+      "icono": "◈",
+      "requiere": [
+        "past-perfect"
+      ],
+      "metafora": "El contador antes de la avería. Llevaba X tiempo funcionando cuando se rompió.",
+      "nivel": "B1"
+    },
+    {
+      "id": "contraste-pasado-perfecto",
+      "titulo": "El pasado del pasado",
+      "bloque": "Pasado",
+      "icono": "⇄",
+      "requiere": [
+        "past-perfect",
+        "past-perfect-continuous"
+      ],
+      "metafora": "Cuando hay dos pasados en la misma frase, el más antiguo se pone el had.",
+      "nivel": "B1"
+    },
+    {
+      "id": "future-will",
+      "titulo": "Will",
+      "bloque": "Futuro",
+      "icono": "▶",
+      "requiere": [
+        "present-simple"
+      ],
+      "metafora": "El impulso en la caja del súper. Lo decides ahí mismo, sin haberlo pensado.",
+      "nivel": "A2"
+    },
+    {
+      "id": "future-going-to",
+      "titulo": "Be going to",
+      "bloque": "Futuro",
+      "icono": "▷",
+      "requiere": [
+        "future-will"
+      ],
+      "metafora": "El billete ya comprado. Estaba decidido desde antes de abrir la boca.",
+      "nivel": "A2"
+    },
+    {
+      "id": "future-continuous",
+      "titulo": "Future Continuous",
+      "bloque": "Futuro",
+      "icono": "▶",
+      "requiere": [
+        "future-will"
+      ],
+      "metafora": "La agenda a esa hora. A las tres estaré en el dentista.",
+      "nivel": "B1"
+    },
+    {
+      "id": "future-perfect",
+      "titulo": "Future Perfect",
+      "bloque": "Futuro",
+      "icono": "◆",
+      "requiere": [
+        "future-will"
+      ],
+      "metafora": "La fecha límite. Para el viernes ya estará entregado.",
+      "nivel": "B1"
+    },
+    {
+      "id": "future-perfect-continuous",
+      "titulo": "Future Perfect Continuous",
+      "bloque": "Futuro",
+      "icono": "◈",
+      "requiere": [
+        "future-perfect"
+      ],
+      "metafora": "La antigüedad en la empresa. En diciembre hago dos años.",
+      "nivel": "B1"
+    },
+    {
+      "id": "pronunciacion-ed",
+      "titulo": "Los tres sonidos de -ed",
+      "bloque": "Sonido",
+      "icono": "🔊",
+      "requiere": [
+        "orto-pasado"
+      ],
+      "metafora": "Sorda con sorda, sonora con sonora. Y si el verbo ya acaba en T o D, la lengua necesita un descanso: sale sílaba extra.",
+      "nivel": "A2"
+    },
+    {
+      "id": "mezcla-total",
+      "titulo": "Los 12 mezclados",
+      "bloque": "Repaso",
+      "icono": "★",
+      "requiere": [
+        "contraste-presente",
+        "contraste-pasado",
+        "future-going-to"
+      ],
+      "metafora": "Aquí no te avisan de qué tiempo toca. Lee el marcador temporal y decide.",
+      "nivel": "B1"
+    }
+  ],
+  "reglas": {
+    "orto-s": "Tercera persona: -s general",
+    "orto-es": "Tercera persona: -es tras sibilante o -o",
+    "orto-ies": "Tercera persona: consonante + y → -ies",
+    "orto-vocal-y": "Vocal + y no cambia",
+    "orto-has": "have → has",
+    "orto-ing": "Gerundio general",
+    "orto-ing-e": "Gerundio: se cae la e muda",
+    "orto-ing-ee": "Gerundio: -ee/-oe/-ye conservan la e",
+    "orto-ing-ie": "Gerundio: -ie → y",
+    "orto-111": "Regla 1-1-1: doblar consonante",
+    "orto-ed": "Pasado regular: -ed",
+    "orto-ed-e": "Pasado: solo -d tras e",
+    "orto-ied": "Pasado: consonante + y → -ied",
+    "orto-ed-vocal-y": "Pasado: vocal + y → -ed",
+    "orto-ed-111": "Pasado: doblar consonante (1-1-1)",
+    "ed-id": "Pronunciación /ɪd/",
+    "ed-t": "Pronunciación /t/",
+    "ed-d": "Pronunciación /d/",
+    "stative": "Verbos de estado (sin continuo)",
+    "aux-do": "Auxiliar do/does",
+    "aux-did": "Auxiliar did + verbo base",
+    "aux-be": "Concordancia de am/is/are/was/were",
+    "aux-have": "Auxiliar have/has + participio",
+    "orden-pregunta": "Orden de palabras en preguntas",
+    "participio-v3": "Participio pasado (V3)",
+    "pasado-v2": "Pasado de irregulares (V2)",
+    "for-since": "for vs since",
+    "will-going-to": "will vs be going to",
+    "contraste-pp-ps": "Present perfect vs past simple",
+    "contraste-ps-pc": "Present simple vs continuous",
+    "contraste-pasado": "Past simple vs past continuous",
+    "marcadores": "Marcadores temporales"
+  },
+  "niveles": [
+    {
+      "id": "A1",
+      "titulo": "Primeros pasos",
+      "descripcion": "Sé decir «I am a student» y poco más. Quiero el presente y el primer pasado.",
+      "cubre": "Presente simple y continuo, past simple y la ortografía del verbo."
+    },
+    {
+      "id": "A2",
+      "titulo": "Me defiendo",
+      "descripcion": "Manejo el presente y el pasado simple. Me lío con «have been» y con «will» frente a «going to».",
+      "cubre": "Present perfect, past continuous, futuro y la pronunciación del -ed."
+    },
+    {
+      "id": "B1",
+      "titulo": "Voy suelto",
+      "descripcion": "Uso los tiempos básicos sin pensar. Quiero los perfectos continuos y el pasado del pasado.",
+      "cubre": "Past perfect, los continuos perfectos, el futuro completo y la mezcla de los 12."
+    }
+  ]
+}

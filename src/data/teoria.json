@@ -1,0 +1,344 @@
+{
+  "secciones": [
+    { "id": "cimientos", "titulo": "Ortografía del verbo", "temas": ["orto-tercera", "orto-gerundio", "orto-pasado"] },
+    { "id": "presente", "titulo": "Presente", "temas": ["present-simple", "present-continuous", "present-perfect", "present-perfect-continuous"] },
+    { "id": "pasado", "titulo": "Pasado", "temas": ["past-simple", "past-continuous", "past-perfect", "past-perfect-continuous"] },
+    { "id": "futuro", "titulo": "Futuro", "temas": ["future-will", "future-going-to", "future-continuous", "future-perfect", "future-perfect-continuous"] },
+    { "id": "extras", "titulo": "Sonido y verbos de estado", "temas": ["pronunciacion-ed", "stative"] }
+  ],
+  "temas": {
+    "orto-tercera": {
+      "titulo": "La -s de he/she/it",
+      "resumen": "-s · -es · -ies · has",
+      "unidad": "orto-tercera",
+      "metafora": "La -s es el chivato de he, she e it. Si el sujeto es uno solo y no eres tú ni yo, el verbo lleva su marca.",
+      "reglas": [
+        { "titulo": "Regla general: añadir -s", "detalle": "La mayoría de los verbos solo suman una -s en afirmativa con he, she o it.", "ejemplos": ["live → lives", "play → plays", "run → runs"] },
+        { "titulo": "Sibilantes y -o: añadir -es", "detalle": "Si el verbo acaba en -s, -ss, -sh, -ch, -x, -z, -zz o en -o, la -s sola no se puede pronunciar y entra -es.", "ejemplos": ["watch → watches", "wash → washes", "pass → passes", "fix → fixes", "go → goes", "do → does"] },
+        { "titulo": "Consonante + y: cambia a -ies", "detalle": "Se quita la y y se añade -ies. Solo si antes de la y hay consonante.", "ejemplos": ["study → studies", "fly → flies", "try → tries", "carry → carries"] },
+        { "titulo": "Vocal + y: no se toca", "detalle": "Si antes de la y hay vocal, se aplica la regla general: solo -s.", "ejemplos": ["play → plays", "enjoy → enjoys", "say → says"] },
+        { "titulo": "El irregular", "detalle": "have cambia entero.", "ejemplos": ["have → has"] }
+      ],
+      "notas": [
+        { "titulo": "Solo en afirmativa", "texto": "En negativas y preguntas la marca se la lleva el auxiliar: does. Por eso se dice «Does she speak?» y nunca «Does she speaks?». Una sola marca por frase." }
+      ]
+    },
+
+    "orto-gerundio": {
+      "titulo": "El verbo en -ing",
+      "resumen": "e muda · -ie → y · regla 1-1-1",
+      "unidad": "orto-gerundio",
+      "metafora": "La consonante se agarra fuerte para que la vocal no se escape: stop → stopping, no stoping.",
+      "reglas": [
+        { "titulo": "Regla general", "detalle": "Se añade -ing directamente a la base.", "ejemplos": ["work → working", "play → playing"] },
+        { "titulo": "La e muda se cae", "detalle": "Los verbos que acaban en e muda la pierden antes de -ing.", "ejemplos": ["write → writing", "dance → dancing", "take → taking"] },
+        { "titulo": "Excepción: -ee, -oe, -ye la conservan", "detalle": "Cuando la e final no está sola, se queda.", "ejemplos": ["see → seeing", "canoe → canoeing", "dye → dyeing"] },
+        { "titulo": "-ie cambia a y", "detalle": "La combinación -ie se sustituye por una y.", "ejemplos": ["die → dying", "lie → lying", "tie → tying"] },
+        { "titulo": "Regla 1-1-1: doblar la consonante", "detalle": "Si el verbo tiene 1 sílaba, 1 vocal y acaba en 1 consonante (que no sea w, x, y), la última consonante se dobla.", "ejemplos": ["run → running", "stop → stopping", "swim → swimming"] },
+        { "titulo": "Polisílabos: manda la sílaba tónica", "detalle": "Solo doblan si el golpe de voz cae en la última sílaba: beGIN sí, VIsit no.", "ejemplos": ["begin → beginning", "regret → regretting", "permit → permitting", "visit → visiting", "offer → offering", "budget → budgeting"] }
+      ]
+    },
+
+    "orto-pasado": {
+      "titulo": "El verbo en -ed",
+      "resumen": "-ed · -d · -ied · doblar",
+      "unidad": "orto-pasado",
+      "metafora": "El -ed es la etiqueta de «esto ya pasó». Solo hay que saber dónde pegarla sin arrugar la palabra.",
+      "reglas": [
+        { "titulo": "Regla general", "detalle": "Se añade -ed a la base del verbo regular.", "ejemplos": ["work → worked", "play → played"] },
+        { "titulo": "Si acaba en e, solo -d", "detalle": "No se duplica la e.", "ejemplos": ["live → lived", "dance → danced"] },
+        { "titulo": "Consonante + y: cambia a -ied", "detalle": "Igual que en tercera persona: la y se cae.", "ejemplos": ["study → studied", "try → tried", "carry → carried"] },
+        { "titulo": "Vocal + y: -ed normal", "detalle": "La y con vocal delante no se toca.", "ejemplos": ["enjoy → enjoyed", "stay → stayed"] },
+        { "titulo": "Regla 1-1-1", "detalle": "Los mismos criterios que con -ing: una sílaba, una vocal, una consonante final → se dobla.", "ejemplos": ["stop → stopped", "plan → planned", "admit → admitted"] }
+      ],
+      "notas": [
+        { "titulo": "Solo para verbos regulares", "texto": "Los irregulares tienen su propia forma de pasado (go → went, buy → bought) y no llevan -ed jamás: «goed» y «buyed» no existen." }
+      ]
+    },
+
+    "present-simple": {
+      "titulo": "Present Simple",
+      "resumen": "Hábitos, rutinas y verdades generales",
+      "unidad": "present-simple",
+      "metafora": "El horario del metro. Pasa siempre igual, esté yo mirando o no.",
+      "usos": [
+        "Hábitos y rutinas diarias",
+        "Verdades generales y hechos científicos",
+        "Estados permanentes",
+        "Horarios programados (transporte, eventos)"
+      ],
+      "marcadores": ["always", "usually", "often", "sometimes", "never", "every day", "on Mondays"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + verbo (-s/-es con he, she, it) + objeto", "ejemplo": "She speaks English fluently.", "traduccion": "Ella habla inglés con fluidez." },
+        { "tipo": "negativa", "formula": "Sujeto + do/does + not + verbo en base", "ejemplo": "She doesn't speak English.", "traduccion": "Ella no habla inglés." },
+        { "tipo": "pregunta_yn", "formula": "Do/Does + sujeto + verbo en base + ...?", "ejemplo": "Does she speak English?", "traduccion": "¿Habla ella inglés?", "respuestas": "Yes, she does. · No, she doesn't." },
+        { "tipo": "pregunta_wh", "formula": "WH + do/does + sujeto + verbo en base + ...?", "ejemplo": "Where does she learn English?", "traduccion": "¿Dónde aprende ella inglés?" }
+      ],
+      "notas": [
+        { "titulo": "El verbo to be va por libre", "texto": "No usa do/does: I am a teacher · They aren't here · Are you ready? · Where is the key?" },
+        { "titulo": "La -s salta al auxiliar", "texto": "En negativas y preguntas el verbo vuelve a la base: speaks → doesn't speak. Nunca «doesn't speaks»." }
+      ]
+    },
+
+    "present-continuous": {
+      "titulo": "Present Continuous",
+      "resumen": "Lo que está pasando ahora",
+      "unidad": "present-continuous",
+      "metafora": "La story de Instagram. Está pasando ahora y se cae en 24 horas.",
+      "usos": [
+        "Acciones en progreso en este momento",
+        "Situaciones temporales de esta época",
+        "Planes futuros ya agendados en firme"
+      ],
+      "marcadores": ["now", "right now", "at the moment", "today", "this week", "Look!", "Listen!"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + am/is/are + verbo-ing", "ejemplo": "I am writing a letter now.", "traduccion": "Estoy escribiendo una carta ahora." },
+        { "tipo": "negativa", "formula": "Sujeto + am/is/are + not + verbo-ing", "ejemplo": "They aren't working today.", "traduccion": "Ellos no están trabajando hoy." },
+        { "tipo": "pregunta_yn", "formula": "Am/Is/Are + sujeto + verbo-ing + ...?", "ejemplo": "Are you studying English?", "traduccion": "¿Estás estudiando inglés?", "respuestas": "Yes, I am. · No, I'm not." },
+        { "tipo": "pregunta_wh", "formula": "WH + am/is/are + sujeto + verbo-ing?", "ejemplo": "What are you doing?", "traduccion": "¿Qué estás haciendo?" }
+      ],
+      "notas": [
+        { "titulo": "Los verbos de estado no entran", "texto": "know, want, love, belong… no admiten continuo: se dice I know the answer, nunca «I am knowing the answer». Mira el tema Verbos de estado." }
+      ]
+    },
+
+    "present-perfect": {
+      "titulo": "Present Perfect",
+      "resumen": "Pasado que sigue afectando al presente",
+      "unidad": "present-perfect",
+      "metafora": "La mochila. Llevas encima lo que te ha pasado, pero no dices cuándo lo metiste.",
+      "usos": [
+        "Acciones pasadas con impacto en el presente",
+        "Experiencias de vida sin decir cuándo",
+        "Acciones que empezaron en el pasado y siguen vigentes (for / since)"
+      ],
+      "marcadores": ["ever", "never", "already", "yet", "just", "so far", "recently", "for", "since"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + have/has + participio (V3)", "ejemplo": "He has visited Rome twice.", "traduccion": "Él ha visitado Roma dos veces." },
+        { "tipo": "negativa", "formula": "Sujeto + have/has + not + participio (V3)", "ejemplo": "We haven't finished the project.", "traduccion": "No hemos terminado el proyecto." },
+        { "tipo": "pregunta_yn", "formula": "Have/Has + sujeto + participio (V3) + ...?", "ejemplo": "Have you seen that movie?", "traduccion": "¿Has visto esa película?", "respuestas": "Yes, I have. · No, I haven't." },
+        { "tipo": "pregunta_wh", "formula": "WH + have/has + sujeto + participio (V3)?", "ejemplo": "Where have they gone?", "traduccion": "¿A dónde se han ido?" }
+      ],
+      "notas": [
+        { "titulo": "for y since", "texto": "for + duración (for three years) · since + punto de inicio (since 2020, since Monday)." },
+        { "titulo": "Con fecha, se cae", "texto": "yesterday, last week, in 2019 o ago cierran el momento y obligan a past simple: «I have gone yesterday» es imposible." }
+      ]
+    },
+
+    "present-perfect-continuous": {
+      "titulo": "Present Perfect Continuous",
+      "resumen": "Cuánto tiempo llevas haciéndolo",
+      "unidad": "present-perfect-continuous",
+      "metafora": "El cronómetro corriendo. Lo que importa no es qué hiciste, sino cuánto llevas.",
+      "usos": [
+        "Acciones que empezaron en el pasado y siguen activas, con énfasis en la duración",
+        "Acciones recién terminadas con consecuencia visible"
+      ],
+      "marcadores": ["for", "since", "all day", "all morning", "lately", "recently", "how long...?"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + have/has + been + verbo-ing", "ejemplo": "She has been studying for three hours.", "traduccion": "Ella ha estado estudiando durante tres horas." },
+        { "tipo": "negativa", "formula": "Sujeto + have/has + not + been + verbo-ing", "ejemplo": "I haven't been sleeping well lately.", "traduccion": "No he estado durmiendo bien últimamente." },
+        { "tipo": "pregunta_yn", "formula": "Have/Has + sujeto + been + verbo-ing + ...?", "ejemplo": "Have they been working on the car?", "traduccion": "¿Han estado trabajando en el coche?", "respuestas": "Yes, they have. · No, they haven't." },
+        { "tipo": "pregunta_wh", "formula": "WH + have/has + sujeto + been + verbo-ing?", "ejemplo": "How long have you been waiting here?", "traduccion": "¿Cuánto tiempo llevas esperando aquí?" }
+      ],
+      "notas": [
+        { "titulo": "Simple o continuo", "texto": "El simple cuenta el resultado (I have written three emails: cuántos); el continuo, el proceso (I have been writing all morning: cuánto tiempo)." }
+      ]
+    },
+
+    "past-simple": {
+      "titulo": "Past Simple",
+      "resumen": "Momento cerrado del pasado",
+      "unidad": "past-simple",
+      "metafora": "La foto. Momento cerrado, con fecha al dorso.",
+      "usos": ["Acciones completadas y terminadas en un punto concreto del pasado"],
+      "marcadores": ["yesterday", "last night", "last week", "ago", "in 1998", "when I was a child"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + verbo en pasado (V2: -ed o forma irregular)", "ejemplo": "They bought a new car last week.", "traduccion": "Compraron un coche nuevo la semana pasada." },
+        { "tipo": "negativa", "formula": "Sujeto + did + not + verbo en base", "ejemplo": "We didn't enjoy the movie.", "traduccion": "No disfrutamos de la película." },
+        { "tipo": "pregunta_yn", "formula": "Did + sujeto + verbo en base + ...?", "ejemplo": "Did you see the soccer match?", "traduccion": "¿Viste el partido?", "respuestas": "Yes, I did. · No, I didn't." },
+        { "tipo": "pregunta_wh", "formula": "WH + did + sujeto + verbo en base + ...?", "ejemplo": "Where did they buy that camera?", "traduccion": "¿Dónde compraron esa cámara?" }
+      ],
+      "notas": [
+        { "titulo": "did ya lleva el pasado", "texto": "El verbo vuelve a la base: didn't buy, nunca «didn't bought». Un solo pasado por frase." },
+        { "titulo": "El verbo to be va por libre", "texto": "was (I, he, she, it) / were (you, we, they), sin did: He was tired · We weren't ready · Were you happy? · Why was she late?" }
+      ]
+    },
+
+    "past-continuous": {
+      "titulo": "Past Continuous",
+      "resumen": "Acción en curso interrumpida",
+      "unidad": "past-continuous",
+      "metafora": "El vídeo de fondo. Estaba grabando cuando pasó algo.",
+      "usos": [
+        "Acciones en desarrollo en un punto del pasado",
+        "Acción de fondo interrumpida por otra (la interrupción va en past simple)",
+        "Dos acciones simultáneas (while)"
+      ],
+      "marcadores": ["while", "when", "at 8 PM last night", "all day yesterday"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + was/were + verbo-ing", "ejemplo": "I was sleeping when the phone rang.", "traduccion": "Estaba durmiendo cuando sonó el teléfono." },
+        { "tipo": "negativa", "formula": "Sujeto + was/were + not + verbo-ing", "ejemplo": "They weren't watching TV at 8 PM.", "traduccion": "No estaban viendo la tele a las ocho." },
+        { "tipo": "pregunta_yn", "formula": "Was/Were + sujeto + verbo-ing + ...?", "ejemplo": "Was she driving when it started raining?", "traduccion": "¿Conducía ella cuando empezó a llover?", "respuestas": "Yes, she was. · No, she wasn't." },
+        { "tipo": "pregunta_wh", "formula": "WH + was/were + sujeto + verbo-ing?", "ejemplo": "What were you doing at that moment?", "traduccion": "¿Qué estabas haciendo en ese momento?" }
+      ],
+      "notas": [
+        { "titulo": "El patrón de interrupción", "texto": "El fondo largo va en continuo y el corte puntual en simple: While I was cooking, the doorbell rang." }
+      ]
+    },
+
+    "past-perfect": {
+      "titulo": "Past Perfect",
+      "resumen": "El pasado del pasado",
+      "unidad": "past-perfect",
+      "metafora": "El flashback de la peli. Lo que ya había pasado antes de la escena que cuentas.",
+      "usos": ["Acciones terminadas antes de otro momento también pasado"],
+      "marcadores": ["already", "just", "never", "before", "after", "by the time", "when"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + had + participio (V3)", "ejemplo": "The train had already left when we got to the station.", "traduccion": "El tren ya se había ido cuando llegamos a la estación." },
+        { "tipo": "negativa", "formula": "Sujeto + had + not + participio (V3)", "ejemplo": "I hadn't finished the exam when the bell rang.", "traduccion": "No había terminado el examen cuando sonó el timbre." },
+        { "tipo": "pregunta_yn", "formula": "Had + sujeto + participio (V3) + ...?", "ejemplo": "Had they eaten before they arrived?", "traduccion": "¿Habían comido antes de llegar?", "respuestas": "Yes, they had. · No, they hadn't." },
+        { "tipo": "pregunta_wh", "formula": "WH + had + sujeto + participio (V3)?", "ejemplo": "Why had she decided to leave?", "traduccion": "¿Por qué había decidido irse?" }
+      ],
+      "notas": [
+        { "titulo": "Solo con dos pasados", "texto": "El past perfect necesita otro momento pasado de referencia. Si solo hay un evento, sobra: se usa past simple." }
+      ]
+    },
+
+    "past-perfect-continuous": {
+      "titulo": "Past Perfect Continuous",
+      "resumen": "Cuánto llevaba pasando algo",
+      "unidad": "past-perfect-continuous",
+      "metafora": "El contador antes de la avería. Llevaba X tiempo funcionando cuando se rompió.",
+      "usos": ["Acciones en curso durante un tiempo antes de otro momento pasado, destacando la duración"],
+      "marcadores": ["for", "since", "before", "all day", "how long"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + had + been + verbo-ing", "ejemplo": "I had been working all day, so I was exhausted.", "traduccion": "Había estado trabajando todo el día, así que estaba agotado." },
+        { "tipo": "negativa", "formula": "Sujeto + had + not + been + verbo-ing", "ejemplo": "They hadn't been practicing long before the concert started.", "traduccion": "No llevaban mucho tiempo ensayando cuando empezó el concierto." },
+        { "tipo": "pregunta_yn", "formula": "Had + sujeto + been + verbo-ing + ...?", "ejemplo": "Had he been studying English for years before he moved to London?", "traduccion": "¿Llevaba años estudiando inglés antes de mudarse a Londres?", "respuestas": "Yes, he had. · No, he hadn't." },
+        { "tipo": "pregunta_wh", "formula": "WH + had + sujeto + been + verbo-ing?", "ejemplo": "How long had you been driving when the tire went flat?", "traduccion": "¿Cuánto llevabas conduciendo cuando se pinchó la rueda?" }
+      ]
+    },
+
+    "future-will": {
+      "titulo": "Future Simple: will",
+      "resumen": "Decisiones del momento y predicciones",
+      "unidad": "future-will",
+      "metafora": "El impulso en la caja del súper. Lo decides ahí mismo, sin haberlo pensado.",
+      "usos": [
+        "Decisiones espontáneas de último minuto",
+        "Predicciones basadas en opinión (I think...)",
+        "Promesas y ofrecimientos de ayuda",
+        "Hechos futuros inevitables"
+      ],
+      "marcadores": ["tomorrow", "next week", "soon", "I think", "probably", "I promise"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + will + verbo en base", "ejemplo": "I will help you with those bags.", "traduccion": "Te ayudaré con esas bolsas." },
+        { "tipo": "negativa", "formula": "Sujeto + will not (won't) + verbo en base", "ejemplo": "We won't tolerate this behavior.", "traduccion": "No toleraremos este comportamiento." },
+        { "tipo": "pregunta_yn", "formula": "Will + sujeto + verbo en base + ...?", "ejemplo": "Will you marry me?", "traduccion": "¿Te casarás conmigo?", "respuestas": "Yes, I will. · No, I won't." },
+        { "tipo": "pregunta_wh", "formula": "WH + will + sujeto + verbo en base?", "ejemplo": "Where will you go next summer?", "traduccion": "¿A dónde irás el próximo verano?" }
+      ],
+      "notas": [
+        { "titulo": "will nunca cambia", "texto": "Ni lleva -s ni admite to después: «She will helps» y «I will to help» son imposibles. La negación contraída es won't." }
+      ]
+    },
+
+    "future-going-to": {
+      "titulo": "Be going to",
+      "resumen": "Planes decididos y evidencia a la vista",
+      "unidad": "future-going-to",
+      "metafora": "El billete ya comprado. Estaba decidido desde antes de abrir la boca.",
+      "usos": [
+        "Planes premeditados e intenciones claras",
+        "Predicciones con evidencia física visible (Look at those clouds!)"
+      ],
+      "marcadores": ["tonight", "this weekend", "next year", "Look!"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + am/is/are + going to + verbo en base", "ejemplo": "They are going to buy a house next year.", "traduccion": "Van a comprar una casa el año que viene." },
+        { "tipo": "negativa", "formula": "Sujeto + am/is/are + not + going to + verbo en base", "ejemplo": "He isn't going to travel this weekend.", "traduccion": "Él no va a viajar este fin de semana." },
+        { "tipo": "pregunta_yn", "formula": "Am/Is/Are + sujeto + going to + verbo en base + ...?", "ejemplo": "Are you going to study tonight?", "traduccion": "¿Vas a estudiar esta noche?", "respuestas": "Yes, I am. · No, I'm not." },
+        { "tipo": "pregunta_wh", "formula": "WH + am/is/are + sujeto + going to + verbo en base?", "ejemplo": "What is she going to wear to the party?", "traduccion": "¿Qué se va a poner para la fiesta?" }
+      ],
+      "notas": [
+        { "titulo": "will o going to", "texto": "El teléfono suena y contestas: I'll get it (decisión de ahora). Ya tienes las entradas: I'm going to see that film (plan previo). Nubes negras a la vista: It's going to rain (evidencia); «creo que lloverá mañana»: I think it will rain (opinión)." }
+      ]
+    },
+
+    "future-continuous": {
+      "titulo": "Future Continuous",
+      "resumen": "En pleno desarrollo en un punto futuro",
+      "unidad": "future-continuous",
+      "metafora": "La agenda a esa hora. A las tres estaré en el dentista.",
+      "usos": ["Acciones que estarán ocurriendo en un punto concreto del futuro"],
+      "marcadores": ["this time tomorrow", "at 3 PM tomorrow", "all day tomorrow"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + will be + verbo-ing", "ejemplo": "This time tomorrow, I will be flying to Tokyo.", "traduccion": "Mañana a esta hora estaré volando a Tokio." },
+        { "tipo": "negativa", "formula": "Sujeto + won't be + verbo-ing", "ejemplo": "They won't be working this weekend.", "traduccion": "No estarán trabajando este fin de semana." },
+        { "tipo": "pregunta_yn", "formula": "Will + sujeto + be + verbo-ing + ...?", "ejemplo": "Will you be using your laptop tonight?", "traduccion": "¿Estarás usando el portátil esta noche?", "respuestas": "Yes, I will. · No, I won't." },
+        { "tipo": "pregunta_wh", "formula": "WH + will + sujeto + be + verbo-ing?", "ejemplo": "What will they be doing at 3 PM?", "traduccion": "¿Qué estarán haciendo a las tres?" }
+      ]
+    },
+
+    "future-perfect": {
+      "titulo": "Future Perfect",
+      "resumen": "Terminado antes de una fecha límite",
+      "unidad": "future-perfect",
+      "metafora": "La fecha límite. Para el viernes ya estará entregado.",
+      "usos": ["Acciones que ya se habrán completado antes de un límite futuro"],
+      "marcadores": ["by 5 PM", "by Monday", "by next year", "by the time", "before"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + will have + participio (V3)", "ejemplo": "By 5 PM, she will have completed the report.", "traduccion": "Para las cinco, ella habrá terminado el informe." },
+        { "tipo": "negativa", "formula": "Sujeto + won't have + participio (V3)", "ejemplo": "I won't have finished the book by tomorrow.", "traduccion": "No habré terminado el libro para mañana." },
+        { "tipo": "pregunta_yn", "formula": "Will + sujeto + have + participio (V3) + ...?", "ejemplo": "Will you have arrived by midnight?", "traduccion": "¿Habrás llegado para medianoche?", "respuestas": "Yes, I will. · No, I won't." },
+        { "tipo": "pregunta_wh", "formula": "WH + will + sujeto + have + participio (V3)?", "ejemplo": "What will they have done by next month?", "traduccion": "¿Qué habrán hecho para el mes que viene?" }
+      ]
+    },
+
+    "future-perfect-continuous": {
+      "titulo": "Future Perfect Continuous",
+      "resumen": "Duración acumulada hasta un hito futuro",
+      "unidad": "future-perfect-continuous",
+      "metafora": "La antigüedad en la empresa. En diciembre hago dos años.",
+      "usos": ["Acciones que habrán estado ocurriendo durante un periodo hasta llegar a un momento futuro"],
+      "marcadores": ["by December... for two years", "by the time"],
+      "estructuras": [
+        { "tipo": "afirmativa", "formula": "Sujeto + will have been + verbo-ing", "ejemplo": "By December, I will have been living in Spain for two years.", "traduccion": "Para diciembre, llevaré dos años viviendo en España." },
+        { "tipo": "negativa", "formula": "Sujeto + won't have been + verbo-ing", "ejemplo": "We won't have been traveling long by the time we reach the border.", "traduccion": "No llevaremos mucho viajando cuando lleguemos a la frontera." },
+        { "tipo": "pregunta_yn", "formula": "Will + sujeto + have been + verbo-ing + ...?", "ejemplo": "Will she have been teaching here for a decade by next July?", "traduccion": "¿Llevará una década enseñando aquí para el próximo julio?", "respuestas": "Yes, she will. · No, she won't." },
+        { "tipo": "pregunta_wh", "formula": "WH + will + sujeto + have been + verbo-ing?", "ejemplo": "How long will they have been working on the software when it launches?", "traduccion": "¿Cuánto llevarán trabajando en el software cuando se lance?" }
+      ]
+    },
+
+    "pronunciacion-ed": {
+      "titulo": "Los tres sonidos de -ed",
+      "resumen": "/ɪd/ · /t/ · /d/",
+      "unidad": "pronunciacion-ed",
+      "metafora": "Sorda con sorda, sonora con sonora. Y si el verbo ya acaba en T o D, la lengua necesita un descanso: sale sílaba extra.",
+      "reglas": [
+        { "titulo": "/ɪd/ — con sílaba extra", "detalle": "Solo cuando la base acaba en sonido T o D: la lengua no puede pegar otra igual y necesita una vocal de apoyo.", "ejemplos": ["want → wanted", "need → needed", "decide → decided", "start → started"] },
+        { "titulo": "/t/ — seco, sin sílaba extra", "detalle": "Cuando la base acaba en sonido sordo (sin vibración): P, K, F, S, SH, CH, X.", "ejemplos": ["laugh → laughed", "wash → washed", "kiss → kissed", "fix → fixed", "stop → stopped", "watch → watched"] },
+        { "titulo": "/d/ — suave, sin sílaba extra", "detalle": "Cuando la base acaba en sonido sonoro (con vibración) o en vocal: L, N, R, G, V, M, B, Z, W, Y.", "ejemplos": ["play → played", "call → called", "clean → cleaned", "love → loved", "arrive → arrived"] }
+      ],
+      "notas": [
+        { "titulo": "Manda el sonido, no la letra", "texto": "laughed acaba en letra gh pero suena /f/ → /t/. played acaba en vocal → /d/. La ortografía engaña; escucha el final del verbo base." }
+      ]
+    },
+
+    "stative": {
+      "titulo": "Verbos de estado",
+      "resumen": "Los que nunca van en -ing",
+      "unidad": "contraste-presente",
+      "metafora": "Los verbos que no se mueven. No se pueden estar haciendo, porque no se hacen: se tienen.",
+      "reglas": [
+        { "titulo": "Emoción y deseo", "detalle": "Sentimientos que se tienen, no que se ejecutan.", "ejemplos": ["love", "hate", "like", "want", "prefer", "need"] },
+        { "titulo": "Cognición", "detalle": "Lo que pasa en la cabeza sin esfuerzo voluntario.", "ejemplos": ["know", "believe", "understand", "remember", "forget", "think (opinar)"] },
+        { "titulo": "Percepción", "detalle": "Lo que los sentidos captan solos.", "ejemplos": ["seem", "hear", "see (percibir)", "smell", "taste", "sound"] },
+        { "titulo": "Posesión y relación", "detalle": "Vínculos entre cosas y personas.", "ejemplos": ["belong", "own", "possess", "owe", "have (tener)", "cost"] }
+      ],
+      "notas": [
+        { "titulo": "La regla", "texto": "No admiten tiempos continuos: I understand the lesson (nunca «I am understanding») · We wanted a new house (nunca «we were wanting»)." },
+        { "titulo": "Los de doble vida", "texto": "Algunos cambian de significado y entonces sí admiten -ing: I'm having lunch (comer, acción) frente a I have a car (tener) · I'm seeing the doctor (cita) frente a I see the mountain (percibir) · The chef is tasting the soup (probar) frente a The soup tastes salty (saber a)." }
+      ]
+    }
+  }
+}

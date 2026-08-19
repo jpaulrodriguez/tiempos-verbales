@@ -1,0 +1,63 @@
+name: Publicar en GitHub Pages
+
+# Se dispara con cada cambio en main, así que editar los ejercicios desde
+# github.com republica la app sola. También se puede lanzar a mano desde la
+# pestaña Actions.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Si se empujan dos cambios seguidos, se publica el último y se cancela el
+# anterior en vez de encolarlos.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      # Las dos revisiones del contenido corren ANTES de construir. Si alguien
+      # edita banco.json y se le cuela un ejercicio irresoluble, el despliegue
+      # falla y la app que ya está publicada sigue intacta. Es preferible a
+      # publicar algo roto y enterarse por un alumno.
+      - name: Comprobar el motor
+        run: npm run prueba
+
+      - name: Comprobar que los ejercicios son jugables
+        run: npm run comprobar
+
+      - name: Validar el banco
+        run: python3 validar_banco.py src/data/banco.json
+
+      - run: npm run build
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4
