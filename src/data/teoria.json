@@ -1,6 +1,6 @@
 {
   "secciones": [
-    { "id": "basicos", "titulo": "Lo esencial de la frase", "temas": ["demostrativos"] },
+    { "id": "basicos", "titulo": "Lo esencial de la frase", "temas": ["demostrativos", "contables"] },
     { "id": "cimientos", "titulo": "Ortografía del verbo", "temas": ["orto-tercera", "orto-gerundio", "orto-pasado"] },
     { "id": "presente", "titulo": "Presente", "temas": ["present-simple", "present-continuous", "present-perfect", "present-perfect-continuous"] },
     { "id": "pasado", "titulo": "Pasado", "temas": ["past-simple", "past-continuous", "past-perfect", "past-perfect-continuous"] },
@@ -35,6 +35,36 @@
         { "titulo": "this y these suenan distinto, aunque se parezcan al leerlas", "texto": "this es corto y acaba en /s/ silbante: /ðɪs/. these es largo y acaba en /z/ vibrante: /ðiːz/. Si alargas la i y haces zumbar la última letra, estás diciendo el plural." },
         { "titulo": "That's no es el plural de that", "texto": "That's es la contracción de that is, sigue siendo singular: That's my car. El plural es those: Those are my cars." },
         { "titulo": "En el tiempo, this es el presente y that lo ya pasado", "texto": "this morning es la mañana de hoy; that morning es una mañana concreta del pasado que ya has mencionado. Por eso this suele acompañar al presente y that al past simple." }
+      ]
+    },
+
+    "contables": {
+      "titulo": "Contables e incontables",
+      "resumen": "some · any · much · many · a piece of",
+      "nivel": "A2",
+      "metafora": "¿Puedes contarlo con los dedos? Si puedes señalarlo de uno en uno, es contable. Si sale de un grifo, se pesa o no tiene forma propia, no lo es: para contarlo necesitas un envase.",
+      "usos": [
+        "Decidir si puedes poner a o an delante: a book sí, a water no",
+        "Decidir si el sustantivo admite plural: two books sí, two waters no",
+        "Elegir entre much y many, y entre a little y a few",
+        "Saber si el verbo va en singular o plural: The money is / The coins are"
+      ],
+      "reglas": [
+        { "titulo": "Contable: se cuenta de uno en uno", "detalle": "Admite a o an en singular, tiene plural y el verbo concuerda con el número.", "ejemplos": ["a book → two books", "an apple → three apples", "The book is new.", "The books are new."] },
+        { "titulo": "Incontable: ni a/an ni plural", "detalle": "Va siempre en singular y el verbo también, aunque en español lo digas en plural.", "ejemplos": ["water (nunca «a water»)", "money (nunca «moneys»)", "The information is useful.", "Music makes me happy."] },
+        { "titulo": "some y any", "detalle": "some en afirmativa; any en negativa y en pregunta. Los dos valen con incontables y con contables en plural.", "ejemplos": ["I have some money.", "I don't have any money.", "Do you have any questions?", "There are some books on the table."] },
+        { "titulo": "much, many y a lot of", "detalle": "much con incontables, many con contables en plural. En afirmativa suena más natural a lot of, que sirve para los dos.", "ejemplos": ["How much water?", "How many books?", "I don't have much time.", "She has a lot of friends."] },
+        { "titulo": "a little y a few", "detalle": "a little con incontables, a few con contables en plural. Los dos significan «un poco» o «unos cuantos», en positivo.", "ejemplos": ["a little sugar", "a few friends", "We have a little time left.", "I bought a few apples."] },
+        { "titulo": "Sin el a, cambia el tono", "detalle": "a few y a little son optimistas: hay algo. few y little a secas son pesimistas: casi no hay.", "ejemplos": ["I have a few friends. (tengo unos cuantos)", "I have few friends. (tengo pocos)", "There's a little milk. (queda algo)", "There's little milk. (casi no queda)"] },
+        { "titulo": "How much y How many", "detalle": "How much pregunta por cantidad de algo incontable; How many, por número de cosas contables. How much también pregunta el precio.", "ejemplos": ["How much money do you need?", "How many students are there?", "How much is this jacket?"] },
+        { "titulo": "Para contar lo incontable: el envase", "detalle": "Si necesitas una cantidad concreta de algo incontable, le pones delante un recipiente o una porción.", "ejemplos": ["a glass of water", "a cup of coffee", "a slice of bread", "a piece of advice", "a bottle of milk", "a kilo of rice"] }
+      ],
+      "notas": [
+        { "titulo": "Los que engañan: en español se cuentan y en inglés no", "texto": "Esta lista es la que más faltas provoca. Son incontables en inglés y no admiten plural ni a/an: information, advice, news, furniture, luggage, money, homework, work, bread, knowledge, research, progress, traffic, weather, equipment. Se dice a piece of information, a piece of advice, a piece of furniture." },
+        { "titulo": "news parece plural, pero es singular", "texto": "Acaba en -s y engaña: The news is good, no «are». Igual pasa con mathematics, physics y economics, que llevan verbo en singular pese a la -s final." },
+        { "titulo": "people ya es plural", "texto": "people es el plural de person, así que lleva verbo en plural: People are waiting. No existe «a people» ni «peoples» con este sentido. Lo mismo con the police: The police are here." },
+        { "titulo": "Algunas palabras cambian de significado", "texto": "En incontable son la materia; en contable, una unidad concreta. coffee (el café) frente a a coffee (una taza) · paper (el papel) frente a a paper (un periódico) · glass (el vidrio) frente a a glass (un vaso) · time (el tiempo) frente a a time (una vez) · chicken (la carne) frente a a chicken (el animal)." },
+        { "titulo": "some en preguntas, cuando ofreces", "texto": "La regla dice any en preguntas, pero si estás ofreciendo o pidiendo algo se usa some: Would you like some coffee? · Can I have some water? Con any la pregunta suena a interrogatorio en vez de a invitación." }
       ]
     },
 
