@@ -1,7 +1,17 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import datos from '../data/verbos.json'
 import { hablar, hayVoz } from '../motor/audio.js'
 import { Altavoz, Cruz } from './Iconos.jsx'
+
+/**
+ * Cuántas tarjetas se pintan de una vez.
+ *
+ * Con las 520 a la vez el DOM llegaba a 15.000 nodos y 2.600 botones, y el
+ * scroll iba a tirones en cuanto el móvil no es de gama alta. Se pintan por
+ * tandas y se añade la siguiente cuando el final se acerca, así el DOM se
+ * queda en torno al millar de nodos y la lista se siente igual de continua.
+ */
+const TANDA = 40
 
 const ETIQUETAS = {
   base: 'Base',
@@ -73,6 +83,8 @@ export default function Verbos() {
   const [busqueda, setBusqueda] = useState('')
   const [tipo, setTipo] = useState('todos')
   const [tema, setTema] = useState('todos')
+  const [limite, setLimite] = useState(TANDA)
+  const centinela = useRef(null)
 
   const TIPOS = [
     { id: 'todos', titulo: 'Todos' },
@@ -97,6 +109,26 @@ export default function Verbos() {
         Object.values(v.formas).some((f) => pelar(f.t).includes(q))
     })
   }, [busqueda, tipo, tema])
+
+  // Al cambiar de filtro se vuelve a la primera tanda: si no, un filtro que
+  // deja 12 verbos heredaría el límite de 200 de la búsqueda anterior.
+  useEffect(() => { setLimite(TANDA) }, [busqueda, tipo, tema])
+
+  const mostrados = visibles.slice(0, limite)
+  const quedanMas = visibles.length > limite
+
+  // El margen de 600px hace que la tanda siguiente entre antes de que el
+  // alumno llegue al final: no llega a ver un hueco ni un «cargando».
+  useEffect(() => {
+    const el = centinela.current
+    if (!el) return
+    const obs = new IntersectionObserver(
+      ([entrada]) => { if (entrada.isIntersecting) setLimite((n) => n + TANDA) },
+      { rootMargin: '600px' }
+    )
+    obs.observe(el)
+    return () => obs.disconnect()
+  }, [quedanMas])
 
   const patronActivo = datos.patrones.find((p) => p.id === tipo)
 
@@ -190,7 +222,18 @@ export default function Verbos() {
         </div>
       ) : (
         <div className="verbos__lista">
-          {visibles.map((v) => <Verbo key={v.id} verbo={v} onOir={(t) => hablar(t, { lento: true })} />)}
+          {mostrados.map((v) => <Verbo key={v.id} verbo={v} onOir={(t) => hablar(t, { lento: true })} />)}
+          {quedanMas ? (
+            <>
+              <div ref={centinela} className="centinela" aria-hidden="true" />
+              {/* El observador carga solo al acercarse el final, pero el botón
+                  se queda: quien navega con teclado no dispara scroll, y si el
+                  navegador no soporta IntersectionObserver esto es la salida. */}
+              <button type="button" className="boton boton--azul verbos__mas" onClick={() => setLimite((n) => n + TANDA)}>
+                Ver más ({visibles.length - limite} {visibles.length - limite === 1 ? 'verbo' : 'verbos'})
+              </button>
+            </>
+          ) : null}
         </div>
       )}
 

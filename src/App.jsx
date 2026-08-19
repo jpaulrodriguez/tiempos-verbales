@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import banco from './data/banco.json'
 import curriculo from './data/unidades.json'
 import teoria from './data/teoria.json'
@@ -9,7 +9,14 @@ import MapaUnidades from './componentes/MapaUnidades.jsx'
 import Bienvenida from './componentes/Bienvenida.jsx'
 import Guia from './componentes/Guia.jsx'
 import Tema from './componentes/Tema.jsx'
-import Verbos from './componentes/Verbos.jsx'
+/**
+ * El listado de verbos va en su propio paquete.
+ *
+ * Son 520 verbos con cinco formas cada uno: bastante peso para algo que la
+ * mayoría no abre. Así quien solo hace la lección del día no se lo descarga,
+ * y quien entra en la pestaña lo recibe en ese momento.
+ */
+const Verbos = lazy(() => import('./componentes/Verbos.jsx'))
 import Leccion from './componentes/Leccion.jsx'
 import Resumen from './componentes/Resumen.jsx'
 import Perfil from './componentes/Perfil.jsx'
@@ -274,7 +281,9 @@ export default function App() {
   if (pantalla === 'verbos') {
     return (
       <div className="app app--con-tabs">
-        <Verbos />
+        <Suspense fallback={<p className="aviso">Cargando los verbos…</p>}>
+          <Verbos />
+        </Suspense>
         <BarraTabs activa="verbos" onCambiar={setPantalla} />
       </div>
     )

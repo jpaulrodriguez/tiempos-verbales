@@ -1011,6 +1011,11 @@ h1, h2, h3, .display { font-family: 'Outfit', sans-serif; letter-spacing: -.015e
 .vacio p { margin: 0 0 var(--e1); color: var(--tinta-media); }
 .vacio .boton { margin-top: var(--e2); }
 
+/* Disparador de la tanda siguiente. Sin alto propio: el margen del observador
+   ya se encarga de adelantarse, y así no deja un hueco al final de la lista. */
+.centinela { height: 1px; }
+.verbos__mas { align-self: center; margin-top: var(--e2); min-width: 220px; }
+
 .verbos__nota {
   display: flex; align-items: flex-start; gap: 8px;
   font-size: 12.5px; color: var(--tinta-suave); line-height: 1.5;
