@@ -1,6 +1,6 @@
 {
   "secciones": [
-    { "id": "basicos", "titulo": "Lo esencial de la frase", "temas": ["demostrativos", "contables"] },
+    { "id": "basicos", "titulo": "Lo esencial de la frase", "temas": ["demostrativos", "contables", "adverbios-tiempo"] },
     { "id": "cimientos", "titulo": "Ortografía del verbo", "temas": ["orto-tercera", "orto-gerundio", "orto-pasado"] },
     { "id": "presente", "titulo": "Presente", "temas": ["present-simple", "present-continuous", "present-perfect", "present-perfect-continuous"] },
     { "id": "pasado", "titulo": "Pasado", "temas": ["past-simple", "past-continuous", "past-perfect", "past-perfect-continuous"] },
@@ -65,6 +65,36 @@
         { "titulo": "people ya es plural", "texto": "people es el plural de person, así que lleva verbo en plural: People are waiting. No existe «a people» ni «peoples» con este sentido. Lo mismo con the police: The police are here." },
         { "titulo": "Algunas palabras cambian de significado", "texto": "En incontable son la materia; en contable, una unidad concreta. coffee (el café) frente a a coffee (una taza) · paper (el papel) frente a a paper (un periódico) · glass (el vidrio) frente a a glass (un vaso) · time (el tiempo) frente a a time (una vez) · chicken (la carne) frente a a chicken (el animal)." },
         { "titulo": "some en preguntas, cuando ofreces", "texto": "La regla dice any en preguntas, pero si estás ofreciendo o pidiendo algo se usa some: Would you like some coffee? · Can I have some water? Con any la pregunta suena a interrogatorio en vez de a invitación." }
+      ]
+    },
+
+    "adverbios-tiempo": {
+      "titulo": "Adverbios de tiempo",
+      "resumen": "always · never · yesterday · already · yet",
+      "nivel": "A2",
+      "metafora": "Contestan a cuándo y cada cuánto. Lo difícil no es elegirlos, es colocarlos: en español van casi donde quieras, en inglés cada uno tiene su silla asignada.",
+      "usos": [
+        "Decir cuándo pasó: yesterday, last week, in 2019, tomorrow",
+        "Decir cada cuánto: always, usually, never, twice a week",
+        "Decir cuánto lleva durando: for, since, all day",
+        "Marcar si algo ya pasó o todavía falta: already, yet, still, just"
+      ],
+      "reglas": [
+        { "titulo": "Frecuencia: delante del verbo", "detalle": "always, usually, often, sometimes, rarely y never se ponen ANTES del verbo principal. Es lo contrario del español, donde van detrás.", "ejemplos": ["I always drink coffee.", "She never eats meat.", "They often travel.", "We sometimes work late."] },
+        { "titulo": "Pero detrás de to be", "detalle": "Con am, is, are, was y were el adverbio pasa al otro lado: va después del verbo.", "ejemplos": ["She is always late.", "I am never bored.", "They were often tired.", "He was usually the first."] },
+        { "titulo": "Y en medio de los tiempos compuestos", "detalle": "Cuando hay auxiliar, el adverbio se cuela entre el auxiliar y el verbo principal.", "ejemplos": ["I have never been to Japan.", "She has always wanted a dog.", "He doesn't usually work on Sundays.", "We will probably arrive late."] },
+        { "titulo": "La escalera de la frecuencia", "detalle": "De más a menos. rarely y seldom significan lo mismo; seldom suena más formal.", "ejemplos": ["always — siempre", "usually — normalmente", "often — a menudo", "sometimes — a veces", "rarely / seldom — rara vez", "never — nunca"] },
+        { "titulo": "Las expresiones de frecuencia van al final", "detalle": "Cuidado: every day, twice a week o once a month no siguen la regla de arriba. Son expresiones, no adverbios sueltos, y se colocan al final.", "ejemplos": ["I go to the gym every day.", "She calls her mother twice a week.", "We meet once a month."] },
+        { "titulo": "Cuándo pasó: al final", "detalle": "yesterday, last week, tomorrow, in 2019, two hours ago… van al final de la frase. Se pueden adelantar al principio para dar énfasis, y entonces se separan con coma.", "ejemplos": ["I saw her yesterday.", "They moved to Madrid in 2019.", "Yesterday, I saw her at the station."] },
+        { "titulo": "already, yet, still y just", "detalle": "La familia que más cuesta. already y just van en medio (afirmativa); yet va al final (negativa y pregunta); still va delante del verbo.", "ejemplos": ["I have already finished.", "I have just arrived.", "I haven't finished yet.", "Have you finished yet?", "I still live here."] },
+        { "titulo": "ago, for y since", "detalle": "ago mide hacia atrás desde hoy y pide past simple. for mide la duración. since marca el punto de partida.", "ejemplos": ["I moved here two years ago.", "I have lived here for two years.", "I have lived here since 2024."] }
+      ],
+      "notas": [
+        { "titulo": "El error número uno: colocarlo detrás del verbo", "texto": "En español dices «bebo siempre café» y suena perfecto. En inglés, «I drink always coffee» está mal, y peor aún meterlo entre el verbo y su objeto. Lo correcto es I always drink coffee. Si dudas, la regla corta es: delante del verbo, salvo con to be." },
+        { "titulo": "never ya es negativo por sí solo", "texto": "No se junta con don't ni doesn't: «I don't never go» está mal. Es I never go. El inglés admite una sola negación por frase, al revés que el español." },
+        { "titulo": "ever no significa siempre", "texto": "Significa «alguna vez» y vive en las preguntas: Have you ever been to Rome? También aparece pegado a never y en never ever. En una afirmativa suelta no se usa." },
+        { "titulo": "still y yet no son intercambiables", "texto": "still es que algo sigue ocurriendo: I still work here. yet es que algo todavía no ha ocurrido: I haven't started yet. Y ojo con el orden en negativa: He still hasn't called (still delante del auxiliar, con un punto de impaciencia) frente a He hasn't called yet (neutro, al final)." },
+        { "titulo": "already en una pregunta cambia el tono", "texto": "La norma dice yet en preguntas. Si usas already, la pregunta expresa sorpresa: Have you finished already? es «¿ya has terminado?» con cara de asombro, no una pregunta neutra." }
       ]
     },
 
